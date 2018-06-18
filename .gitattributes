@@ -1,0 +1,18 @@
+# Files to make sure we keep as binaries
+
+# board files
+*.brd -crlf -diff -merge
+
+# schematic files
+*.sch -crlf -diff -merge
+
+# project files
+*.epf -crlf -diff -merge
+
+# library files, if I ever add them
+*.lbr -crlf -diff -merge
+
+# other cad files
+*.dwg -crlf -diff -merge
+*.stp -crlf -diff -merge
+
