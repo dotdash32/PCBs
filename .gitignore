@@ -49,3 +49,7 @@
 
 # file locks introduced since 7.x
 *.lck
+
+# Folders I don't want on gitHub
+/Given\ MiniDox
+
