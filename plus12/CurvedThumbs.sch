@@ -75,19 +75,19 @@
 <libraries>
 <library name="Keys" urn="urn:adsk.eagle:library:1331239">
 <packages>
-<package name="DOUBLED_MX/ALPS" urn="urn:adsk.eagle:footprint:1435769/4" library_version="22">
+<package name="DOUBLED_MX/ALPS" urn="urn:adsk.eagle:footprint:1435769/4" locally_modified="yes" library_version="22" library_locally_modified="yes">
 <hole x="0" y="0" drill="0.35"/>
 <hole x="0" y="0" drill="3.9878"/>
 <hole x="-5.08" y="0" drill="1.7018"/>
 <hole x="5.08" y="0" drill="1.7018"/>
-<pad name="LAL" x="-2.5" y="4" drill="1.5"/>
+<pad name="LAL" x="-2.5" y="4" drill="1.5" diameter="3.048"/>
 <pad name="RAR" x="2.5" y="4.5" drill="1.5"/>
-<pad name="LCL" x="-3.81" y="2.54" drill="1.4986"/>
-<pad name="RCR" x="2.54" y="5.08" drill="1.4986"/>
-<pad name="RAL" x="2.5" y="4" drill="1.5"/>
+<pad name="LCL" x="-3.81" y="2.54" drill="1.4986" diameter="3.048"/>
+<pad name="RCR" x="2.54" y="5.08" drill="1.4986" diameter="3.048"/>
+<pad name="RAL" x="2.5" y="4" drill="1.5" diameter="3.048"/>
 <pad name="LAR" x="-2.5" y="4.5" drill="1.5"/>
-<pad name="RCL" x="3.81" y="2.54" drill="1.4986"/>
-<pad name="LCR" x="-2.54" y="5.08" drill="1.4986"/>
+<pad name="RCL" x="3.81" y="2.54" drill="1.4986" diameter="3.048"/>
+<pad name="LCR" x="-2.54" y="5.08" drill="1.4986" diameter="3.048"/>
 <wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.127" layer="49"/>
 <wire x1="9.525" y1="9.525" x2="9.525" y2="-9.525" width="0.127" layer="49"/>
 <wire x1="9.525" y1="-9.525" x2="-9.525" y2="-9.525" width="0.127" layer="49"/>
@@ -111,32 +111,9 @@
 <text x="-6.35" y="-6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="6.35" y="-6.35" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
 </package>
-<package name="TOPSIDE_MX/ALPS" urn="urn:adsk.eagle:footprint:1435770/1" library_version="22">
-<hole x="0" y="0" drill="0.35"/>
-<hole x="0" y="0" drill="3.9878"/>
-<hole x="-5.08" y="0" drill="1.7018"/>
-<hole x="5.08" y="0" drill="1.7018"/>
-<pad name="LAL" x="-2.5" y="4" drill="1.5"/>
-<pad name="RAR" x="2.5" y="4.5" drill="1.5"/>
-<pad name="LCL" x="-3.81" y="2.54" drill="1.4986"/>
-<pad name="RCR" x="2.54" y="5.08" drill="1.4986"/>
-<wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.127" layer="49"/>
-<wire x1="9.525" y1="9.525" x2="9.525" y2="-9.525" width="0.127" layer="49"/>
-<wire x1="9.525" y1="-9.525" x2="-9.525" y2="-9.525" width="0.127" layer="49"/>
-<wire x1="-9.525" y1="-9.525" x2="-9.525" y2="9.525" width="0.127" layer="49"/>
-<wire x1="-7.747" y1="7.747" x2="-4.445" y2="7.747" width="0.127" layer="21"/>
-<wire x1="7.747" y1="7.747" x2="4.445" y2="7.747" width="0.127" layer="21"/>
-<wire x1="7.747" y1="-7.747" x2="4.445" y2="-7.747" width="0.127" layer="21"/>
-<wire x1="-7.747" y1="-7.747" x2="-4.445" y2="-7.747" width="0.127" layer="21"/>
-<wire x1="-7.747" y1="-7.747" x2="-7.747" y2="-4.445" width="0.127" layer="21"/>
-<wire x1="-7.747" y1="7.747" x2="-7.747" y2="4.445" width="0.127" layer="21"/>
-<wire x1="7.747" y1="7.747" x2="7.747" y2="4.445" width="0.127" layer="21"/>
-<wire x1="7.747" y1="-7.747" x2="7.747" y2="-4.445" width="0.127" layer="21"/>
-<text x="-6.35" y="-6.35" size="1.27" layer="21">&gt;NAME</text>
-</package>
-<package name="DIODE_COMBO" urn="urn:adsk.eagle:footprint:3624139/1" library_version="22">
-<pad name="CATT" x="-5.08" y="0" drill="0.75" shape="square"/>
-<pad name="ANOT" x="5.08" y="0" drill="0.75"/>
+<package name="DIODE_COMBO" urn="urn:adsk.eagle:footprint:3624139/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
+<pad name="CATT" x="-5.08" y="0" drill="1.016" diameter="2.032" shape="square"/>
+<pad name="ANOT" x="5.08" y="0" drill="1.016" diameter="2.032"/>
 <smd name="CATST" x="-1.651" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90"/>
 <smd name="ANOST" x="1.651" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90"/>
 <smd name="CATSB" x="-1.651" y="0" dx="1.27" dy="0.9144" layer="16" rot="R90"/>
@@ -172,15 +149,15 @@
 <wire x1="-3.429" y1="-0.762" x2="-3.683" y2="-1.27" width="0.127" layer="22"/>
 <wire x1="-3.683" y1="-1.27" x2="-3.175" y2="-1.27" width="0.127" layer="22"/>
 </package>
-<package name="INTRCNNT" urn="urn:adsk.eagle:footprint:3650899/1" library_version="22">
-<pad name="C1" x="0" y="0" drill="0.65" diameter="1.016" shape="square"/>
-<pad name="C2" x="2.54" y="0" drill="0.65" diameter="1.016"/>
-<pad name="C3" x="5.08" y="0" drill="0.65" diameter="1.016"/>
-<pad name="C4" x="7.62" y="0" drill="0.65" diameter="1.016"/>
-<pad name="C5" x="10.16" y="0" drill="0.65" diameter="1.016"/>
-<pad name="C6" x="12.7" y="0" drill="0.65" diameter="1.016"/>
-<pad name="T1" x="15.24" y="0" drill="0.65" diameter="1.016"/>
-<pad name="T2" x="17.78" y="0" drill="0.65" diameter="1.016"/>
+<package name="INTRCNNT" urn="urn:adsk.eagle:footprint:3650899/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
+<pad name="C1" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="C2" x="2.54" y="0" drill="1.016"/>
+<pad name="C3" x="5.08" y="0" drill="1.016"/>
+<pad name="C4" x="7.62" y="0" drill="1.016"/>
+<pad name="C5" x="10.16" y="0" drill="1.016"/>
+<pad name="C6" x="12.7" y="0" drill="1.016"/>
+<pad name="T1" x="15.24" y="0" drill="1.016"/>
+<pad name="T2" x="17.78" y="0" drill="1.016"/>
 <wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0.635" x2="19.05" y2="0.635" width="0.127" layer="21"/>
 <wire x1="19.05" y1="0.635" x2="19.05" y2="-0.635" width="0.127" layer="21"/>
@@ -204,26 +181,49 @@
 <text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="8.89" y="1.27" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
 </package>
+<package name="TOPSIDE_MX/ALPS" urn="urn:adsk.eagle:footprint:1435770/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
+<hole x="0" y="0" drill="0.35"/>
+<hole x="0" y="0" drill="3.9878"/>
+<hole x="-5.08" y="0" drill="1.7018"/>
+<hole x="5.08" y="0" drill="1.7018"/>
+<pad name="LAL" x="-2.5" y="4" drill="1.5" diameter="3.048"/>
+<pad name="RAR" x="2.5" y="4.5" drill="1.5" diameter="3.048"/>
+<pad name="LCL" x="-3.81" y="2.54" drill="1.4986" diameter="3.048"/>
+<pad name="RCR" x="2.54" y="5.08" drill="1.4986" diameter="3.048"/>
+<wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.127" layer="49"/>
+<wire x1="9.525" y1="9.525" x2="9.525" y2="-9.525" width="0.127" layer="49"/>
+<wire x1="9.525" y1="-9.525" x2="-9.525" y2="-9.525" width="0.127" layer="49"/>
+<wire x1="-9.525" y1="-9.525" x2="-9.525" y2="9.525" width="0.127" layer="49"/>
+<wire x1="-7.747" y1="7.747" x2="-4.445" y2="7.747" width="0.127" layer="21"/>
+<wire x1="7.747" y1="7.747" x2="4.445" y2="7.747" width="0.127" layer="21"/>
+<wire x1="7.747" y1="-7.747" x2="4.445" y2="-7.747" width="0.127" layer="21"/>
+<wire x1="-7.747" y1="-7.747" x2="-4.445" y2="-7.747" width="0.127" layer="21"/>
+<wire x1="-7.747" y1="-7.747" x2="-7.747" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-7.747" y1="7.747" x2="-7.747" y2="4.445" width="0.127" layer="21"/>
+<wire x1="7.747" y1="7.747" x2="7.747" y2="4.445" width="0.127" layer="21"/>
+<wire x1="7.747" y1="-7.747" x2="7.747" y2="-4.445" width="0.127" layer="21"/>
+<text x="-6.35" y="-6.35" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
-<package3d name="DOUBLED_MX/ALPS" urn="urn:adsk.eagle:package:1435773/5" type="model" library_version="22">
+<package3d name="DOUBLED_MX/ALPS" urn="urn:adsk.eagle:package:1435773/5" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DOUBLED_MX/ALPS"/>
 </packageinstances>
 </package3d>
-<package3d name="TOPSIDE_MX/ALPS" urn="urn:adsk.eagle:package:1435774/2" type="model" library_version="22">
-<packageinstances>
-<packageinstance name="TOPSIDE_MX/ALPS"/>
-</packageinstances>
-</package3d>
-<package3d name="DIODE_COMBO" urn="urn:adsk.eagle:package:3624144/3" type="model" library_version="22">
+<package3d name="DIODE_COMBO" urn="urn:adsk.eagle:package:3624144/3" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DIODE_COMBO"/>
 </packageinstances>
 </package3d>
-<package3d name="INTRCNNT" urn="urn:adsk.eagle:package:3650901/1" type="box" library_version="22">
+<package3d name="INTRCNNT" urn="urn:adsk.eagle:package:3650901/1" locally_modified="yes" type="box" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="INTRCNNT"/>
+</packageinstances>
+</package3d>
+<package3d name="TOPSIDE_MX/ALPS" urn="urn:adsk.eagle:package:1435774/2" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="TOPSIDE_MX/ALPS"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -265,7 +265,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MX/ALPS" urn="urn:adsk.eagle:component:1435776/7" prefix="SWI" library_version="22">
+<deviceset name="MX/ALPS" urn="urn:adsk.eagle:component:1435776/7" locally_modified="yes" prefix="SWI" library_version="22" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="MXALPS" x="0" y="0"/>
 </gates>
@@ -296,7 +296,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE" urn="urn:adsk.eagle:component:3624145/2" prefix="D" library_version="22">
+<deviceset name="DIODE" urn="urn:adsk.eagle:component:3624145/2" locally_modified="yes" prefix="D" library_version="22" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
@@ -315,7 +315,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="INTRCNNT" urn="urn:adsk.eagle:component:3650902/1" prefix="INT" library_version="22">
+<deviceset name="INTRCNNT" urn="urn:adsk.eagle:component:3650902/1" locally_modified="yes" prefix="INT" library_version="22" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="INTRCNNT" x="0" y="0"/>
 </gates>

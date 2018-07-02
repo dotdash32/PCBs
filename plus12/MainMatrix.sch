@@ -111,32 +111,9 @@
 <text x="-6.35" y="-6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="6.35" y="-6.35" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
 </package>
-<package name="TOPSIDE_MX/ALPS" urn="urn:adsk.eagle:footprint:1435770/1" library_version="18" library_locally_modified="yes">
-<hole x="0" y="0" drill="0.35"/>
-<hole x="0" y="0" drill="3.9878"/>
-<hole x="-5.08" y="0" drill="1.7018"/>
-<hole x="5.08" y="0" drill="1.7018"/>
-<pad name="LAL" x="-2.5" y="4" drill="1.5"/>
-<pad name="RAR" x="2.5" y="4.5" drill="1.5"/>
-<pad name="LCL" x="-3.81" y="2.54" drill="1.4986"/>
-<pad name="RCR" x="2.54" y="5.08" drill="1.4986"/>
-<wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.127" layer="49"/>
-<wire x1="9.525" y1="9.525" x2="9.525" y2="-9.525" width="0.127" layer="49"/>
-<wire x1="9.525" y1="-9.525" x2="-9.525" y2="-9.525" width="0.127" layer="49"/>
-<wire x1="-9.525" y1="-9.525" x2="-9.525" y2="9.525" width="0.127" layer="49"/>
-<wire x1="-7.747" y1="7.747" x2="-4.445" y2="7.747" width="0.127" layer="21"/>
-<wire x1="7.747" y1="7.747" x2="4.445" y2="7.747" width="0.127" layer="21"/>
-<wire x1="7.747" y1="-7.747" x2="4.445" y2="-7.747" width="0.127" layer="21"/>
-<wire x1="-7.747" y1="-7.747" x2="-4.445" y2="-7.747" width="0.127" layer="21"/>
-<wire x1="-7.747" y1="-7.747" x2="-7.747" y2="-4.445" width="0.127" layer="21"/>
-<wire x1="-7.747" y1="7.747" x2="-7.747" y2="4.445" width="0.127" layer="21"/>
-<wire x1="7.747" y1="7.747" x2="7.747" y2="4.445" width="0.127" layer="21"/>
-<wire x1="7.747" y1="-7.747" x2="7.747" y2="-4.445" width="0.127" layer="21"/>
-<text x="-6.35" y="-6.35" size="1.27" layer="21">&gt;NAME</text>
-</package>
-<package name="DIODE_COMBO" urn="urn:adsk.eagle:footprint:3624139/1" library_version="21" library_locally_modified="yes">
-<pad name="CATT" x="-5.08" y="0" drill="0.75" shape="square"/>
-<pad name="ANOT" x="5.08" y="0" drill="0.75"/>
+<package name="DIODE_COMBO" urn="urn:adsk.eagle:footprint:3624139/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
+<pad name="CATT" x="-5.08" y="0" drill="1.016" diameter="2.032" shape="square"/>
+<pad name="ANOT" x="5.08" y="0" drill="1.016" diameter="2.032"/>
 <smd name="CATST" x="-1.651" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90"/>
 <smd name="ANOST" x="1.651" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90"/>
 <smd name="CATSB" x="-1.651" y="0" dx="1.27" dy="0.9144" layer="16" rot="R90"/>
@@ -223,7 +200,7 @@
 <text x="-3.81" y="-7.62" size="1.27" layer="49">OT</text>
 <text x="2.54" y="-3.81" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
 </package>
-<package name="PROMICRO_UNDER" urn="urn:adsk.eagle:footprint:1393980/7" library_version="21">
+<package name="PROMICRO_UNDER" urn="urn:adsk.eagle:footprint:1393980/7" locally_modified="yes" library_version="22" library_locally_modified="yes">
 <pad name="P$1" x="-7.62" y="0" drill="1.016"/>
 <pad name="P$2" x="-7.62" y="-2.54" drill="1.016"/>
 <pad name="P$3" x="-7.62" y="-5.08" drill="1.016"/>
@@ -383,14 +360,14 @@ Data</text>
 <hole x="0" y="-6.9" drill="1"/>
 </package>
 <package name="INTRCNNT" urn="urn:adsk.eagle:footprint:3650899/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
-<pad name="C1" x="0" y="0" drill="0.7874" diameter="1.143" shape="square"/>
-<pad name="C2" x="2.54" y="0" drill="0.7874" diameter="1.143"/>
-<pad name="C3" x="5.08" y="0" drill="0.7874" diameter="1.143"/>
-<pad name="C4" x="7.62" y="0" drill="0.7874" diameter="1.143"/>
-<pad name="C5" x="10.16" y="0" drill="0.7874" diameter="1.143"/>
-<pad name="C6" x="12.7" y="0" drill="0.7874" diameter="1.143"/>
-<pad name="T1" x="15.24" y="0" drill="0.7874" diameter="1.143"/>
-<pad name="T2" x="17.78" y="0" drill="0.7874" diameter="1.143"/>
+<pad name="C1" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="C2" x="2.54" y="0" drill="1.016"/>
+<pad name="C3" x="5.08" y="0" drill="1.016"/>
+<pad name="C4" x="7.62" y="0" drill="1.016"/>
+<pad name="C5" x="10.16" y="0" drill="1.016"/>
+<pad name="C6" x="12.7" y="0" drill="1.016"/>
+<pad name="T1" x="15.24" y="0" drill="1.016"/>
+<pad name="T2" x="17.78" y="0" drill="1.016"/>
 <wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0.635" x2="19.05" y2="0.635" width="0.127" layer="21"/>
 <wire x1="19.05" y1="0.635" x2="19.05" y2="-0.635" width="0.127" layer="21"/>
@@ -414,6 +391,29 @@ Data</text>
 <text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="8.89" y="1.27" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
 </package>
+<package name="TOPSIDE_MX/ALPS" urn="urn:adsk.eagle:footprint:1435770/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
+<hole x="0" y="0" drill="0.35"/>
+<hole x="0" y="0" drill="3.9878"/>
+<hole x="-5.08" y="0" drill="1.7018"/>
+<hole x="5.08" y="0" drill="1.7018"/>
+<pad name="LAL" x="-2.5" y="4" drill="1.5" diameter="3.048"/>
+<pad name="RAR" x="2.5" y="4.5" drill="1.5" diameter="3.048"/>
+<pad name="LCL" x="-3.81" y="2.54" drill="1.4986" diameter="3.048"/>
+<pad name="RCR" x="2.54" y="5.08" drill="1.4986" diameter="3.048"/>
+<wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.127" layer="49"/>
+<wire x1="9.525" y1="9.525" x2="9.525" y2="-9.525" width="0.127" layer="49"/>
+<wire x1="9.525" y1="-9.525" x2="-9.525" y2="-9.525" width="0.127" layer="49"/>
+<wire x1="-9.525" y1="-9.525" x2="-9.525" y2="9.525" width="0.127" layer="49"/>
+<wire x1="-7.747" y1="7.747" x2="-4.445" y2="7.747" width="0.127" layer="21"/>
+<wire x1="7.747" y1="7.747" x2="4.445" y2="7.747" width="0.127" layer="21"/>
+<wire x1="7.747" y1="-7.747" x2="4.445" y2="-7.747" width="0.127" layer="21"/>
+<wire x1="-7.747" y1="-7.747" x2="-4.445" y2="-7.747" width="0.127" layer="21"/>
+<wire x1="-7.747" y1="-7.747" x2="-7.747" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-7.747" y1="7.747" x2="-7.747" y2="4.445" width="0.127" layer="21"/>
+<wire x1="7.747" y1="7.747" x2="7.747" y2="4.445" width="0.127" layer="21"/>
+<wire x1="7.747" y1="-7.747" x2="7.747" y2="-4.445" width="0.127" layer="21"/>
+<text x="-6.35" y="-6.35" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DOUBLED_MX/ALPS" urn="urn:adsk.eagle:package:1435773/5" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
@@ -426,7 +426,7 @@ Data</text>
 <packageinstance name="PROMICRO"/>
 </packageinstances>
 </package3d>
-<package3d name="PROMICRO_UNDER" urn="urn:adsk.eagle:package:1399517/9" type="model" library_version="21">
+<package3d name="PROMICRO_UNDER" urn="urn:adsk.eagle:package:1399517/9" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="PROMICRO_UNDER"/>
 </packageinstances>
@@ -451,17 +451,12 @@ Data</text>
 <packageinstance name="TRANSFER_PADS"/>
 </packageinstances>
 </package3d>
-<package3d name="TRRSJACK" urn="urn:adsk.eagle:package:1393948/12" type="model" library_version="22">
+<package3d name="TRRSJACK" urn="urn:adsk.eagle:package:1393948/13" type="model" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="TRRSJACK"/>
 </packageinstances>
 </package3d>
-<package3d name="TOPSIDE_MX/ALPS" urn="urn:adsk.eagle:package:1435774/2" type="model" library_version="21" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="TOPSIDE_MX/ALPS"/>
-</packageinstances>
-</package3d>
-<package3d name="DIODE_COMBO" urn="urn:adsk.eagle:package:3624144/3" type="model" library_version="21" library_locally_modified="yes">
+<package3d name="DIODE_COMBO" urn="urn:adsk.eagle:package:3624144/3" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="DIODE_COMBO"/>
 </packageinstances>
@@ -469,6 +464,11 @@ Data</text>
 <package3d name="INTRCNNT" urn="urn:adsk.eagle:package:3650901/1" locally_modified="yes" type="box" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="INTRCNNT"/>
+</packageinstances>
+</package3d>
+<package3d name="TOPSIDE_MX/ALPS" urn="urn:adsk.eagle:package:1435774/2" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="TOPSIDE_MX/ALPS"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -621,7 +621,7 @@ Data</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE" urn="urn:adsk.eagle:component:3624145/2" prefix="D" library_version="22">
+<deviceset name="DIODE" urn="urn:adsk.eagle:component:3624145/2" locally_modified="yes" prefix="D" library_version="22" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
@@ -640,7 +640,7 @@ Data</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PROMICRO" urn="urn:adsk.eagle:component:1331251/19" prefix="UC" library_version="22">
+<deviceset name="PROMICRO" urn="urn:adsk.eagle:component:1331251/19" locally_modified="yes" prefix="UC" library_version="22" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="PROMICRO" x="0" y="0"/>
 </gates>
@@ -781,7 +781,7 @@ Data</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRRSJACK" urn="urn:adsk.eagle:component:1393950/17" prefix="JK" library_version="22">
+<deviceset name="TRRSJACK" urn="urn:adsk.eagle:component:1393950/17" locally_modified="yes" prefix="JK" library_version="22" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="TRRSJACK" x="0" y="0"/>
 </gates>
@@ -794,7 +794,7 @@ Data</text>
 <connect gate="G$1" pin="TIP-2" pad="2B 2T"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1393948/12"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1393948/13"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -879,7 +879,7 @@ Data</text>
 <part name="UC1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="PROMICRO" device="UNDER" package3d_urn="urn:adsk.eagle:package:1399517/9"/>
 <part name="SW1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="RSTSW" device="SMD" package3d_urn="urn:adsk.eagle:package:1393947/7"/>
 <part name="SW2" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRANSFER" device="PADDY" package3d_urn="urn:adsk.eagle:package:3624143/2"/>
-<part name="JK1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRRSJACK" device="" package3d_urn="urn:adsk.eagle:package:1393948/12"/>
+<part name="JK1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRRSJACK" device="" package3d_urn="urn:adsk.eagle:package:1393948/13"/>
 <part name="INT1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="INTRCNNT" device="" package3d_urn="urn:adsk.eagle:package:3650901/1"/>
 </parts>
 <sheets>
@@ -1099,8 +1099,10 @@ Data</text>
 <pinref part="UC1" gate="G$1" pin="PB5"/>
 <wire x1="-53.34" y1="48.26" x2="-53.34" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="43.18" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="43.18" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="40.64" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="45.72" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
 <junction x="17.78" y="58.42"/>
 </segment>
@@ -1305,11 +1307,11 @@ Data</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="UC1" gate="G$1" pin="PD1"/>
-<wire x1="-53.34" y1="66.04" x2="-58.42" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="66.04" x2="-58.42" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="63.5" x2="-58.42" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="JK1" gate="G$1" pin="TIP-2"/>
 <wire x1="-58.42" y1="106.68" x2="-60.96" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="UC1" gate="G$1" pin="PD0"/>
+<wire x1="-58.42" y1="63.5" x2="-53.34" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
