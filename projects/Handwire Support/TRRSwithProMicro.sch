@@ -183,6 +183,43 @@
 <text x="0" y="-0.635" size="1.27" layer="21">RAW --&gt;</text>
 <text x="6.35" y="-0.635" size="1.27" layer="22" rot="MR0">&lt;-- RAW</text>
 </package>
+<package name="TRRSJACK_OVER" library_version="22" library_locally_modified="yes">
+<pad name="1T" x="4.8" y="-1.9" drill="1.1"/>
+<pad name="4T" x="-4.5" y="-1.9" drill="1.1"/>
+<pad name="4B" x="-4.8" y="-1.9" drill="1.1"/>
+<pad name="1B" x="4.5" y="-1.9" drill="1.1"/>
+<pad name="3T" x="1.6" y="-10" drill="1.1"/>
+<pad name="3B" x="-1.6" y="-10" drill="1.1"/>
+<pad name="2T" x="-3.6" y="-6.9" drill="1.1"/>
+<pad name="2B" x="3.6" y="-6.9" drill="1.1"/>
+<pad name="EXTRA_DATA" x="0" y="-12.87" drill="1.1"/>
+<wire x1="-2.3" y1="0" x2="2.3" y2="0" width="0.127" layer="21"/>
+<wire x1="4.8" y1="1" x2="4.8" y2="-10.4" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-10.4" x2="-4.8" y2="-10.4" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-10.4" x2="-4.8" y2="1" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="1" x2="-4.8" y2="-10.4" width="0.127" layer="22"/>
+<wire x1="-4.8" y1="-10.4" x2="4.8" y2="-10.4" width="0.127" layer="22"/>
+<wire x1="4.8" y1="-10.4" x2="4.8" y2="1" width="0.127" layer="22"/>
+<wire x1="-4.8" y1="1" x2="-2.3" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="0" width="0.127" layer="21"/>
+<wire x1="4.8" y1="1" x2="2.3" y2="1" width="0.127" layer="21"/>
+<wire x1="2.3" y1="1" x2="2.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="1" x2="-2.3" y2="1" width="0.127" layer="22"/>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="0" width="0.127" layer="22"/>
+<wire x1="-2.3" y1="0" x2="2.3" y2="0" width="0.127" layer="22"/>
+<wire x1="2.3" y1="0" x2="2.3" y2="1" width="0.127" layer="22"/>
+<wire x1="2.3" y1="1" x2="4.8" y2="1" width="0.127" layer="22"/>
+<text x="-2.3" y="-4" size="1.27" layer="21">TRRS</text>
+<text x="-2" y="-16.9" size="1.27" layer="21">Extra
+Data</text>
+<text x="2.3" y="-4" size="1.27" layer="22" rot="MR0">TRRS</text>
+<text x="2" y="-16.9" size="1.27" layer="22" rot="MR0">Extra
+Data</text>
+<text x="-3.5" y="-12" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.5" y="-12" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<hole x="0" y="-1.9" drill="1"/>
+<hole x="0" y="-6.9" drill="1"/>
+</package>
 <package name="TRRSJACK" urn="urn:adsk.eagle:footprint:1393946/9" library_version="22" library_locally_modified="yes">
 <pad name="1T" x="4.8" y="-1.9" drill="1.1"/>
 <pad name="4T" x="-4.5" y="-1.9" drill="1.1"/>
@@ -251,6 +288,40 @@ Data</text>
 <text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="3.81" y="3.81" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
 </package>
+<package name="TRANSFER" urn="urn:adsk.eagle:footprint:1399516/3" library_version="22" library_locally_modified="yes">
+<pad name="VCC1" x="0" y="0" drill="1" rot="R90"/>
+<pad name="VCC2" x="2.54" y="0" drill="1" rot="R90"/>
+<pad name="IN1" x="0" y="-2.54" drill="1" shape="square" rot="R90"/>
+<pad name="IN4" x="2.54" y="-2.54" drill="1" shape="square" rot="R90"/>
+<pad name="GND1" x="0" y="-5.08" drill="1" rot="R90"/>
+<pad name="GND2" x="2.54" y="-5.08" drill="1" rot="R90"/>
+<text x="-1.27" y="-6.35" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.27" y="0" size="1.27" layer="26" rot="MR270">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="1.27" layer="21">VCC</text>
+<text x="2.54" y="1.27" size="1.27" layer="22" rot="MR0">VCC</text>
+<text x="-1.27" y="-7.62" size="1.27" layer="21">GND</text>
+<text x="2.54" y="-7.62" size="1.27" layer="22" rot="MR0">GND</text>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="0" width="0.127" layer="21"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.127" layer="21"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.127" layer="22"/>
+<wire x1="5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="22"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="22"/>
+</package>
+<package name="TRANSFER_PADS" urn="urn:adsk.eagle:footprint:3624138/2" library_version="22" library_locally_modified="yes">
+<smd name="VCCT" x="-1.905" y="1.905" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="IN1T" x="-1.905" y="0" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="IN4T" x="1.905" y="0" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="GNDT" x="1.905" y="-1.905" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="GNDB" x="-1.905" y="-1.905" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="IN1B" x="-1.905" y="0" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="IN4B" x="1.905" y="0" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="VCCB" x="1.905" y="1.905" dx="1.778" dy="0.9144" layer="16"/>
+<text x="-3.81" y="-4.445" size="1.27" layer="21">&gt;NAME</text>
+<text x="3.81" y="-4.445" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="PROMICRO" urn="urn:adsk.eagle:package:1331250/10" type="model" library_version="22" library_locally_modified="yes">
@@ -276,6 +347,16 @@ Data</text>
 <package3d name="FLATSWT" urn="urn:adsk.eagle:package:1393947/7" type="model" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="FLATSWT"/>
+</packageinstances>
+</package3d>
+<package3d name="TRANSFER" urn="urn:adsk.eagle:package:1399518/4" type="box" library_version="22" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="TRANSFER"/>
+</packageinstances>
+</package3d>
+<package3d name="TRANSFER_PADS" urn="urn:adsk.eagle:package:3624143/2" type="box" library_version="22" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="TRANSFER_PADS"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -347,6 +428,18 @@ Data</text>
 <wire x1="20.32" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
 <circle x="12.7" y="0" radius="1.27" width="0.254" layer="94"/>
 <text x="0" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="TRANSFER" urn="urn:adsk.eagle:symbol:1399515/4" library_version="22" library_locally_modified="yes">
+<pin name="IN1" x="-5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="IN4" x="5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="OUT-VCC" x="-5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="OUT-GND" x="5.08" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="0" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="94">Split Switch</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -430,7 +523,7 @@ Data</text>
 <gate name="G$1" symbol="TRRSJACK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TRRSJACK">
+<device name="UNDER" package="TRRSJACK">
 <connects>
 <connect gate="G$1" pin="RING1-3" pad="3B 3T EXTRA_DATA"/>
 <connect gate="G$1" pin="RING2-4" pad="4B 4T"/>
@@ -440,6 +533,17 @@ Data</text>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:1393948/13"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OVER" package="TRRSJACK_OVER">
+<connects>
+<connect gate="G$1" pin="RING1-3" pad="3B 3T EXTRA_DATA"/>
+<connect gate="G$1" pin="RING2-4" pad="4B 4T"/>
+<connect gate="G$1" pin="SLEEVE-1" pad="1B 1T"/>
+<connect gate="G$1" pin="TIP-2" pad="2B 2T"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -470,6 +574,41 @@ Data</text>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:1393947/7"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRANSFER" urn="urn:adsk.eagle:component:1399519/9" prefix="SW" library_version="22" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="TRANSFER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="HOLEY" package="TRANSFER">
+<connects>
+<connect gate="G$1" pin="IN1" pad="IN1"/>
+<connect gate="G$1" pin="IN4" pad="IN4"/>
+<connect gate="G$1" pin="OUT-GND" pad="GND1 GND2"/>
+<connect gate="G$1" pin="OUT-VCC" pad="VCC1 VCC2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1399518/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PADDY" package="TRANSFER_PADS">
+<connects>
+<connect gate="G$1" pin="IN1" pad="IN1B IN1T"/>
+<connect gate="G$1" pin="IN4" pad="IN4B IN4T"/>
+<connect gate="G$1" pin="OUT-GND" pad="GNDB GNDT"/>
+<connect gate="G$1" pin="OUT-VCC" pad="VCCB VCCT"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3624143/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -902,11 +1041,12 @@ Data</text>
 </class>
 </classes>
 <parts>
-<part name="UC1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="PROMICRO" device="UNDER" package3d_urn="urn:adsk.eagle:package:1399517/9" value="PROMICROUNDER"/>
-<part name="JK1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRRSJACK" device="" package3d_urn="urn:adsk.eagle:package:1393948/13"/>
+<part name="UC1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="PROMICRO" device="TOP" package3d_urn="urn:adsk.eagle:package:1331250/10" value="PROMICROTOP"/>
+<part name="JK1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRRSJACK" device="OVER"/>
 <part name="SW1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="RSTSW" device="SMD" package3d_urn="urn:adsk.eagle:package:1393947/7"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="SW2" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRANSFER" device="PADDY" package3d_urn="urn:adsk.eagle:package:3624143/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -918,22 +1058,11 @@ Data</text>
 <instance part="SW1" gate="G$1" x="99.06" y="71.12" rot="R270"/>
 <instance part="JP1" gate="A" x="17.78" y="27.94" rot="R180"/>
 <instance part="JP2" gate="A" x="101.6" y="30.48" rot="R180"/>
+<instance part="SW2" gate="G$1" x="58.42" y="76.2" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<pinref part="JK1" gate="G$1" pin="SLEEVE-1"/>
-<wire x1="25.4" y1="43.18" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="60.96" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="UC1" gate="G$1" pin="VCC"/>
-<wire x1="86.36" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="43.18" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="JK1" gate="G$1" pin="TIP-2"/>
@@ -941,15 +1070,6 @@ Data</text>
 <wire x1="27.94" y1="55.88" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="UC1" gate="G$1" pin="PD0"/>
 <wire x1="27.94" y1="38.1" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="UC1" gate="G$1" pin="GND3"/>
-<wire x1="78.74" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="P$1"/>
-<wire x1="88.9" y1="48.26" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -1039,12 +1159,56 @@ Data</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="JK1" gate="G$1" pin="RING2-4"/>
-<wire x1="25.4" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="60.96" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="UC1" gate="G$1" pin="GND1"/>
-<wire x1="30.48" y1="58.42" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="UC1" gate="G$1" pin="GND2"/>
+<wire x1="45.72" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="43.18" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
+<junction x="45.72" y="45.72"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="UC1" gate="G$1" pin="GND3"/>
+<wire x1="71.12" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="P$1"/>
+<wire x1="83.82" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="48.26" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="58.42" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
+<junction x="83.82" y="48.26"/>
+<pinref part="SW2" gate="G$1" pin="OUT-GND"/>
+<wire x1="71.12" y1="81.28" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<junction x="71.12" y="58.42"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="JK1" gate="G$1" pin="SLEEVE-1"/>
+<wire x1="25.4" y1="38.1" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="40.64" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="G$1" pin="IN1"/>
+<wire x1="38.1" y1="68.58" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="JK1" gate="G$1" pin="RING2-4"/>
+<pinref part="SW2" gate="G$1" pin="IN4"/>
+<wire x1="25.4" y1="60.96" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="SW2" gate="G$1" pin="OUT-VCC"/>
+<wire x1="71.12" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="71.12" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="UC1" gate="G$1" pin="VCC"/>
+<wire x1="86.36" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
