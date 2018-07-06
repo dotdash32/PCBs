@@ -73,12 +73,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="34.29" y2="0" width="0" layer="20"/>
+<wire x1="11.43" y1="0" x2="34.29" y2="0" width="0" layer="20"/>
 <wire x1="34.29" y1="0" x2="34.29" y2="33.02" width="0" layer="20"/>
 <wire x1="34.29" y1="33.02" x2="0" y2="33.02" width="0" layer="20"/>
-<wire x1="0" y1="33.02" x2="0" y2="0" width="0" layer="20"/>
-<hole x="6.35" y="13.97" drill="3.7084"/>
-<hole x="6.35" y="5.08" drill="3.7084"/>
+<wire x1="0" y1="33.02" x2="0" y2="19.05" width="0" layer="20"/>
+<hole x="-5.08" y="15.24" drill="3.7084"/>
+<hole x="-7.62" y="7.62" drill="3.7084"/>
+<wire x1="11.43" y1="0" x2="11.43" y2="19.05" width="0" layer="20"/>
+<wire x1="11.43" y1="19.05" x2="0" y2="19.05" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Keys" urn="urn:adsk.eagle:library:1331239">
