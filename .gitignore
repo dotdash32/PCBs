@@ -50,6 +50,11 @@
 # file locks introduced since 7.x
 *.lck
 
+# Images from generated stuff, don't store on Git
+
+*.png
+*.jpg
+
 # Folders I don't want on gitHub
 /Given\ MiniDox
 
