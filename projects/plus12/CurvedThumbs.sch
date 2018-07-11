@@ -109,7 +109,7 @@
 <wire x1="-7.747" y1="-4.445" x2="-7.747" y2="-7.747" width="0.127" layer="22"/>
 <wire x1="-7.747" y1="-7.747" x2="-4.445" y2="-7.747" width="0.127" layer="22"/>
 <text x="-6.35" y="-6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="6.35" y="-6.35" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
+<text x="6.35" y="-6.35" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
 </package>
 <package name="DIODE_COMBO" urn="urn:adsk.eagle:footprint:3624139/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
 <pad name="CATT" x="-5.08" y="0" drill="1.016" diameter="2.032" shape="square"/>

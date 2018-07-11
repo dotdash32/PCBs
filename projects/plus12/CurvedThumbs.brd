@@ -82,15 +82,15 @@
 <wire x1="79.375" y1="55.245" x2="60.325" y2="55.245" width="0.1524" layer="20"/>
 <wire x1="60.325" y1="55.245" x2="53.975" y2="53.975" width="0.1524" layer="20"/>
 <wire x1="53.975" y1="53.975" x2="35.56" y2="48.26" width="0.1524" layer="20"/>
-<wire x1="8.89" y1="31.115" x2="-1.905" y2="14.605" width="0.1524" layer="20"/>
-<wire x1="-1.905" y1="14.605" x2="3.81" y2="6.985" width="0.1524" layer="20"/>
+<wire x1="11.43" y1="28.575" x2="1.27" y2="12.065" width="0.1524" layer="20"/>
+<wire x1="1.27" y1="12.065" x2="3.81" y2="6.985" width="0.1524" layer="20"/>
 <wire x1="3.81" y1="6.985" x2="12.7" y2="1.27" width="0.1524" layer="20"/>
 <wire x1="12.7" y1="1.27" x2="17.145" y2="1.905" width="0.1524" layer="20"/>
 <wire x1="60.325" y1="36.195" x2="79.375" y2="36.195" width="0.1524" layer="20"/>
 <wire x1="79.375" y1="36.195" x2="97.155" y2="29.845" width="0.1524" layer="20"/>
 <wire x1="97.155" y1="29.845" x2="112.395" y2="17.78" width="0.1524" layer="20"/>
-<wire x1="8.89" y1="31.115" x2="12.7" y2="36.83" width="0.1524" layer="20"/>
-<wire x1="12.7" y1="36.83" x2="14.605" y2="40.005" width="0.1524" layer="20"/>
+<wire x1="11.43" y1="28.575" x2="15.24" y2="33.02" width="0.1524" layer="20"/>
+<wire x1="15.24" y1="33.02" x2="14.605" y2="40.005" width="0.1524" layer="20"/>
 <wire x1="14.605" y1="40.005" x2="22.86" y2="46.355" width="0.1524" layer="20"/>
 <wire x1="22.86" y1="46.355" x2="30.48" y2="45.085" width="0.1524" layer="20"/>
 <wire x1="30.48" y1="45.085" x2="35.56" y2="48.26" width="0.1524" layer="20"/>
@@ -104,10 +104,14 @@
 <wire x1="79.375" y1="36.195" x2="79.375" y2="55.245" width="0.1524" layer="21"/>
 <wire x1="103.505" y1="47.625" x2="97.155" y2="29.845" width="0.1524" layer="21"/>
 <wire x1="97.155" y1="29.845" x2="103.505" y2="47.625" width="0.1524" layer="22"/>
-<text x="12.7" y="28.575" size="1.778" layer="22" rot="MR302.4">Plus12
-Aleutian Keylands</text>
-<text x="2.54" y="12.065" size="1.778" layer="21" rot="R57.6">Plus12
-Aleutian Keylands</text>
+<text x="19.05" y="15.875" size="1.778" layer="22" rot="MR302.4">Plus12</text>
+<text x="15.24" y="9.525" size="1.778" layer="21" rot="R57.6">Plus12</text>
+<text x="34.29" y="23.495" size="1.778" layer="21" rot="R38.4">Aleutian
+Key-
+lands</text>
+<text x="34.925" y="24.13" size="1.778" layer="22" rot="MR321.6">Aleutian
+Key-
+lands</text>
 </plain>
 <libraries>
 <library name="Keys" urn="urn:adsk.eagle:library:1331239">
@@ -210,7 +214,7 @@ Aleutian Keylands</text>
 <wire x1="-7.747" y1="-4.445" x2="-7.747" y2="-7.747" width="0.127" layer="22"/>
 <wire x1="-7.747" y1="-7.747" x2="-4.445" y2="-7.747" width="0.127" layer="22"/>
 <text x="-6.35" y="-6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="6.35" y="-6.35" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
+<text x="6.35" y="-6.35" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -412,7 +416,7 @@ Aleutian Keylands</text>
 <element name="D4" library="Keys" library_urn="urn:adsk.eagle:library:1331239" package="DIODE_COMBO" package3d_urn="urn:adsk.eagle:package:3624144/3" value="DIODE" x="60.325" y="48.26" rot="R90"/>
 <element name="D5" library="Keys" library_urn="urn:adsk.eagle:library:1331239" package="DIODE_COMBO" package3d_urn="urn:adsk.eagle:package:3624144/3" value="DIODE" x="83.82" y="46.99" rot="R70.8"/>
 <element name="D6" library="Keys" library_urn="urn:adsk.eagle:library:1331239" package="DIODE_COMBO" package3d_urn="urn:adsk.eagle:package:3624144/3" value="DIODE" x="105.41" y="38.735" rot="R51.6"/>
-<element name="INT1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" package="INTRRIBBON" value="INTRCNNT4X2" x="24.765" y="41.91" rot="R218.4"/>
+<element name="INT1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" package="INTRRIBBON" value="INTRCNNT4X2" x="17.145" y="39.37" rot="R38.4"/>
 <element name="SWI19" library="Keys" library_urn="urn:adsk.eagle:library:1331239" package="DOUBLED_MX/ALPS" package3d_urn="urn:adsk.eagle:package:1435773/5" value="MX/ALPSDOUBLESIDED" x="14.2494" y="14.9606" rot="R57.6"/>
 <element name="SWI20" library="Keys" library_urn="urn:adsk.eagle:library:1331239" package="DOUBLED_MX/ALPS" package3d_urn="urn:adsk.eagle:package:1435773/5" value="MX/ALPSDOUBLESIDED" x="28.956" y="31.2674" rot="R38.4"/>
 <element name="SWI21" library="Keys" library_urn="urn:adsk.eagle:library:1331239" package="DOUBLED_MX/ALPS" package3d_urn="urn:adsk.eagle:package:1435773/5" value="MX/ALPSDOUBLESIDED" x="48.2092" y="41.8592" rot="R19.2"/>
@@ -499,7 +503,7 @@ Aleutian Keylands</text>
 <contactref element="SWI19" pad="LAR"/>
 <contactref element="SWI19" pad="LCL"/>
 <contactref element="SWI19" pad="LCR"/>
-<wire x1="8.5992125" y1="15.53800625" x2="24.765" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="8.5992125" y1="15.53800625" x2="17.145" y2="39.37" width="0" layer="19" extent="1-1"/>
 <wire x1="9.11035625" y1="15.261" x2="8.5992125" y2="15.53800625" width="0" layer="19" extent="1-1"/>
 <wire x1="9.53251875" y1="14.993084375" x2="9.11035625" y2="15.261" width="0" layer="19" extent="1-1"/>
 <wire x1="10.06330625" y1="13.104709375" x2="9.53251875" y2="14.993084375" width="0" layer="19" extent="1-1"/>
@@ -513,7 +517,7 @@ Aleutian Keylands</text>
 <wire x1="24.512175" y1="32.849303125" x2="24.2016" y2="33.24115" width="0" layer="19" extent="1-1"/>
 <wire x1="23.8099875" y1="33.670846875" x2="24.2016" y2="33.24115" width="0" layer="19" extent="1-1"/>
 <wire x1="24.3924125" y1="30.89140625" x2="24.512175" y2="32.849303125" width="0" layer="19" extent="1-1"/>
-<wire x1="22.774415625" y1="40.332284375" x2="23.8099875" y2="33.670846875" width="0" layer="19" extent="1-1"/>
+<wire x1="19.13558125" y1="40.9477125" x2="23.8099875" y2="33.670846875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="INT1" pad="C3"/>
@@ -524,7 +528,7 @@ Aleutian Keylands</text>
 <wire x1="44.36835625" y1="45.286725" x2="44.139840625" y2="45.821309375" width="0" layer="19" extent="1-1"/>
 <wire x1="44.532790625" y1="44.8145375" x2="44.36835625" y2="45.286725" width="0" layer="19" extent="1-1"/>
 <wire x1="43.775803125" y1="43.00493125" x2="44.532790625" y2="44.8145375" width="0" layer="19" extent="1-1"/>
-<wire x1="20.783834375" y1="38.75456875" x2="43.775803125" y2="43.00493125" width="0" layer="19" extent="1-1"/>
+<wire x1="21.1261625" y1="42.525428125" x2="43.775803125" y2="43.00493125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="INT1" pad="C4"/>
@@ -535,7 +539,7 @@ Aleutian Keylands</text>
 <wire x1="67.35" y1="50.0168" x2="67.35" y2="49.5168" width="0" layer="19" extent="1-1"/>
 <wire x1="67.31" y1="50.5968" x2="67.35" y2="50.0168" width="0" layer="19" extent="1-1"/>
 <wire x1="66.04" y1="48.0568" x2="67.35" y2="49.5168" width="0" layer="19" extent="1-1"/>
-<wire x1="18.793253125" y1="37.176853125" x2="66.04" y2="48.0568" width="0" layer="19" extent="1-1"/>
+<wire x1="23.11674375" y1="44.10314375" x2="66.04" y2="48.0568" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="INT1" pad="C5"/>
@@ -546,7 +550,7 @@ Aleutian Keylands</text>
 <wire x1="90.60975625" y1="46.931059375" x2="90.445325" y2="46.458871875" width="0" layer="19" extent="1-1"/>
 <wire x1="90.762725" y1="47.491953125" x2="90.60975625" y2="46.931059375" width="0" layer="19" extent="1-1"/>
 <wire x1="88.728046875" y1="45.510896875" x2="90.445325" y2="46.458871875" width="0" layer="19" extent="1-1"/>
-<wire x1="23.187284375" y1="43.90058125" x2="88.728046875" y2="45.510896875" width="0" layer="19" extent="1-1"/>
+<wire x1="18.7227125" y1="37.379415625" x2="88.728046875" y2="45.510896875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="INT1" pad="C6"/>
@@ -557,7 +561,7 @@ Aleutian Keylands</text>
 <wire x1="111.57993125" y1="36.3468875" x2="111.908846875" y2="36.826278125" width="0" layer="19" extent="1-1"/>
 <wire x1="111.26935625" y1="35.955040625" x2="111.57993125" y2="36.3468875" width="0" layer="19" extent="1-1"/>
 <wire x1="109.335840625" y1="35.624553125" x2="111.26935625" y2="35.955040625" width="0" layer="19" extent="1-1"/>
-<wire x1="21.196703125" y1="42.322865625" x2="109.335840625" y2="35.624553125" width="0" layer="19" extent="1-1"/>
+<wire x1="20.71329375" y1="38.95713125" x2="109.335840625" y2="35.624553125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="INT1" pad="T1"/>
@@ -590,8 +594,8 @@ Aleutian Keylands</text>
 <wire x1="40.539534375" y1="33.644096875" x2="60.325" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="38.892846875" y1="36.65183125" x2="40.539534375" y2="33.644096875" width="0" layer="19" extent="16-16"/>
 <wire x1="38.892846875" y1="36.65183125" x2="38.892846875" y2="36.65183125" width="0" layer="19" extent="1-16"/>
-<wire x1="19.20611875" y1="40.74515" x2="38.892846875" y2="36.65183125" width="0" layer="19" extent="16-16"/>
-<wire x1="20.27693125" y1="24.2952625" x2="19.20611875" y2="40.74515" width="0" layer="19" extent="16-16"/>
+<wire x1="22.703878125" y1="40.534846875" x2="38.892846875" y2="36.65183125" width="0" layer="19" extent="16-16"/>
+<wire x1="20.27693125" y1="24.2952625" x2="22.703878125" y2="40.534846875" width="0" layer="19" extent="16-16"/>
 <wire x1="20.27693125" y1="24.2952625" x2="20.27693125" y2="24.2952625" width="0" layer="19" extent="1-16"/>
 <wire x1="22.825175" y1="22.000815625" x2="20.27693125" y2="24.2952625" width="0" layer="19" extent="16-16"/>
 <wire x1="10.283984375" y1="5.465346875" x2="22.825175" y2="22.000815625" width="0" layer="19" extent="16-16"/>

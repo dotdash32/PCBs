@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -148,6 +148,32 @@
 <wire x1="-3.429" y1="0.762" x2="-3.429" y2="-0.762" width="0.127" layer="22"/>
 <wire x1="-3.429" y1="-0.762" x2="-3.683" y2="-1.27" width="0.127" layer="22"/>
 <wire x1="-3.683" y1="-1.27" x2="-3.175" y2="-1.27" width="0.127" layer="22"/>
+</package>
+<package name="INTRRIBBON" library_version="22" library_locally_modified="yes">
+<pad name="C1" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="C2" x="2.54" y="0" drill="1.016"/>
+<pad name="C3" x="5.08" y="0" drill="1.016"/>
+<pad name="C4" x="7.62" y="0" drill="1.016"/>
+<pad name="C5" x="0" y="-2.54" drill="1.016"/>
+<pad name="C6" x="2.54" y="-2.54" drill="1.016"/>
+<pad name="T1" x="5.08" y="-2.54" drill="1.016"/>
+<pad name="T2" x="7.62" y="-2.54" drill="1.016"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-3.81" x2="8.89" y2="1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="1.27" x2="0" y2="1.27" width="0.127" layer="21"/>
+<text x="0" y="-5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.35" y="-5.08" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<wire x1="0" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="-0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="0" y2="1.27" width="0.127" layer="22"/>
+<wire x1="0" y1="1.27" x2="-0.635" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="8.89" y1="-3.81" x2="8.89" y2="1.27" width="0.127" layer="22"/>
+<wire x1="8.89" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="22"/>
 </package>
 <package name="INTRCNNT" urn="urn:adsk.eagle:footprint:3650899/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
 <pad name="C1" x="0" y="0" drill="1.016" shape="square"/>
@@ -320,7 +346,7 @@
 <gate name="G$1" symbol="INTRCNNT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="INTRCNNT">
+<device name="1X8" package="INTRCNNT">
 <connects>
 <connect gate="G$1" pin="C1" pad="C1"/>
 <connect gate="G$1" pin="C2" pad="C2"/>
@@ -334,6 +360,21 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3650901/1"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4X2" package="INTRRIBBON">
+<connects>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+<connect gate="G$1" pin="C3" pad="C3"/>
+<connect gate="G$1" pin="C4" pad="C4"/>
+<connect gate="G$1" pin="C5" pad="C5"/>
+<connect gate="G$1" pin="C6" pad="C6"/>
+<connect gate="G$1" pin="T1" pad="T1"/>
+<connect gate="G$1" pin="T2" pad="T2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -364,8 +405,7 @@
 <part name="D4" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:3624144/3"/>
 <part name="D5" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:3624144/3"/>
 <part name="D6" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:3624144/3"/>
-<part name="INT1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="INTRCNNT" device="" package3d_urn="urn:adsk.eagle:package:3650901/1"/>
-<part name="INT2" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="INTRCNNT" device="" package3d_urn="urn:adsk.eagle:package:3650901/1"/>
+<part name="INT1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="INTRCNNT" device="4X2"/>
 </parts>
 <sheets>
 <sheet>
@@ -385,7 +425,6 @@
 <instance part="D5" gate="G$1" x="119.38" y="12.7" rot="R270"/>
 <instance part="D6" gate="G$1" x="144.78" y="12.7" rot="R270"/>
 <instance part="INT1" gate="G$1" x="5.08" y="50.8" rot="R90"/>
-<instance part="INT2" gate="G$1" x="38.1" y="50.8" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -440,10 +479,6 @@
 <wire x1="5.08" y1="48.26" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="0" y1="43.18" x2="0" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="INT2" gate="G$1" pin="C1"/>
-<wire x1="38.1" y1="50.8" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
-<junction x="5.08" y="48.26"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -454,11 +489,6 @@
 <pinref part="SWI20" gate="G$1" pin="P1"/>
 <wire x1="22.86" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="33.02" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="INT2" gate="G$1" pin="C2"/>
-<wire x1="40.64" y1="50.8" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="45.72" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
-<junction x="22.86" y="33.02"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -469,9 +499,6 @@
 <wire x1="10.16" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="35.56" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="INT2" gate="G$1" pin="C3"/>
-<wire x1="43.18" y1="50.8" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<junction x="43.18" y="35.56"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -482,9 +509,6 @@
 <pinref part="SWI22" gate="G$1" pin="P1"/>
 <wire x1="45.72" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="38.1" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="INT2" gate="G$1" pin="C4"/>
-<wire x1="45.72" y1="50.8" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-<junction x="45.72" y="38.1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -495,9 +519,6 @@
 <pinref part="SWI23" gate="G$1" pin="P1"/>
 <wire x1="48.26" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="40.64" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="INT2" gate="G$1" pin="C5"/>
-<wire x1="48.26" y1="50.8" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
-<junction x="48.26" y="40.64"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -508,9 +529,6 @@
 <wire x1="17.78" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="127" y1="43.18" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="INT2" gate="G$1" pin="C6"/>
-<wire x1="50.8" y1="50.8" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
-<junction x="50.8" y="43.18"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -536,18 +554,6 @@
 <pinref part="D6" gate="G$1" pin="CAT"/>
 <wire x1="119.38" y1="7.62" x2="144.78" y2="7.62" width="0.1524" layer="91"/>
 <junction x="119.38" y="7.62"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="INT1" gate="G$1" pin="T2"/>
-<wire x1="22.86" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="50.8" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="66.04" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="INT2" gate="G$1" pin="T1"/>
-<wire x1="53.34" y1="48.26" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
