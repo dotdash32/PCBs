@@ -3,7 +3,7 @@
 <eagle version="9.1.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -72,7 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOWMyYTg0" projecturn="a.cGVyc29uYWw6dWUyOWMyYTg0IzIwMTYwODI0NDAzNzc1NzY" f3durn="urn:adsk.wipprod:dm.lineage:KPYLQK9tQzG2oEcpfaqtRQ" pcbguid="860f3498-2f76-48de-9d29-1df5ee071c63" lastpulledtime="2018-07-06T03:10:01Z" lastsyncedchangeguid="945e2125-797a-a25b-b4c0-bd4be183c16c"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOWMyYTg0" projecturn="a.cGVyc29uYWw6dWUyOWMyYTg0IzIwMTYwODI0NDAzNzc1NzY" f3durn="urn:adsk.wipprod:dm.lineage:KPYLQK9tQzG2oEcpfaqtRQ" pcbguid="860f3498-2f76-48de-9d29-1df5ee071c63" lastpulledtime="2018-07-06T03:10:01Z" lastsyncedchangeguid="83e34e29-f542-4c97-f0ca-c09fc45a537a"/>
 <plain>
 <hole x="6.35" y="16.51" drill="3.708"/>
 <hole x="-7.62" y="7.62" drill="3.708"/>
