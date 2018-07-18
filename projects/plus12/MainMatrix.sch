@@ -76,7 +76,6 @@
 <library name="Keys" urn="urn:adsk.eagle:library:1331239">
 <packages>
 <package name="DOUBLED_MX/ALPS" urn="urn:adsk.eagle:footprint:1435769/4" locally_modified="yes" library_version="22" library_locally_modified="yes">
-<hole x="0" y="0" drill="0.35"/>
 <hole x="0" y="0" drill="3.9878"/>
 <hole x="-5.08" y="0" drill="1.7018"/>
 <hole x="5.08" y="0" drill="1.7018"/>
@@ -109,7 +108,12 @@
 <wire x1="-7.747" y1="-4.445" x2="-7.747" y2="-7.747" width="0.127" layer="22"/>
 <wire x1="-7.747" y1="-7.747" x2="-4.445" y2="-7.747" width="0.127" layer="22"/>
 <text x="-6.35" y="-6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="6.35" y="-6.35" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
+<text x="6.35" y="-6.35" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<pad name="LMID" x="0" y="5.9" drill="1.2"/>
+<pad name="LLP" x="-5" y="3.8" drill="1.2" diameter="2.4"/>
+<pad name="RLP" x="5" y="3.8" drill="1.2" diameter="2.4"/>
+<hole x="-5.5" y="0" drill="1.9"/>
+<hole x="5.5" y="0" drill="1.9"/>
 </package>
 <package name="DIODE_COMBO" urn="urn:adsk.eagle:footprint:3624139/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
 <pad name="CATT" x="-5.08" y="0" drill="1.016" diameter="2.032" shape="square"/>
@@ -200,7 +204,7 @@
 <text x="-3.81" y="-7.62" size="1.27" layer="49">OT</text>
 <text x="2.54" y="-3.81" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
 </package>
-<package name="PROMICRO_UNDER" urn="urn:adsk.eagle:footprint:1393980/7" locally_modified="yes" library_version="22" library_locally_modified="yes">
+<package name="PROMICRO_UNDER" urn="urn:adsk.eagle:footprint:1393980/7" library_version="22" library_locally_modified="yes">
 <pad name="P$1" x="-7.62" y="0" drill="1.016"/>
 <pad name="P$2" x="-7.62" y="-2.54" drill="1.016"/>
 <pad name="P$3" x="-7.62" y="-5.08" drill="1.016"/>
@@ -310,19 +314,19 @@
 <wire x1="3.81" y1="-5.08" x2="3.81" y2="-2.54" width="0.127" layer="22"/>
 <wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="22"/>
 </package>
-<package name="TRANSFER_PADS" urn="urn:adsk.eagle:footprint:3624138/2" library_version="21">
-<smd name="VCCT" x="-1.905" y="1.905" dx="1.778" dy="0.9144" layer="1"/>
-<smd name="IN1T" x="-1.905" y="0" dx="1.778" dy="0.9144" layer="1"/>
-<smd name="IN4T" x="1.905" y="0" dx="1.778" dy="0.9144" layer="1"/>
-<smd name="GNDT" x="1.905" y="-1.905" dx="1.778" dy="0.9144" layer="1"/>
-<smd name="GNDB" x="-1.905" y="-1.905" dx="1.778" dy="0.9144" layer="16"/>
-<smd name="IN1B" x="-1.905" y="0" dx="1.778" dy="0.9144" layer="16"/>
-<smd name="IN4B" x="1.905" y="0" dx="1.778" dy="0.9144" layer="16"/>
-<smd name="VCCB" x="1.905" y="1.905" dx="1.778" dy="0.9144" layer="16"/>
-<text x="-3.81" y="-4.445" size="1.27" layer="21">&gt;NAME</text>
-<text x="3.81" y="-4.445" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
+<package name="TRANSFER_PADS" urn="urn:adsk.eagle:footprint:3624138/2" locally_modified="yes" library_version="22" library_locally_modified="yes">
+<smd name="VCCT" x="-1.27" y="1.27" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="IN1T" x="-1.27" y="0" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="IN4T" x="1.27" y="0" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="GNDT" x="1.27" y="-1.27" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="GNDB" x="-1.27" y="-1.27" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="IN1B" x="-1.27" y="0" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="IN4B" x="1.27" y="0" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="VCCB" x="1.27" y="1.27" dx="1.778" dy="0.9144" layer="16"/>
+<text x="-2.54" y="-3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.54" y="-3.175" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
 </package>
-<package name="TRRSJACK" urn="urn:adsk.eagle:footprint:1393946/9" library_version="22">
+<package name="TRRSJACK" urn="urn:adsk.eagle:footprint:1393946/9" locally_modified="yes" library_version="22" library_locally_modified="yes">
 <pad name="1T" x="4.8" y="-1.9" drill="1.1"/>
 <pad name="4T" x="-4.5" y="-1.9" drill="1.1"/>
 <pad name="4B" x="-4.8" y="-1.9" drill="1.1"/>
@@ -358,6 +362,9 @@ Data</text>
 <text x="3.5" y="-12" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
 <hole x="0" y="-1.9" drill="1"/>
 <hole x="0" y="-6.9" drill="1"/>
+<wire x1="-1.27" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="1"/>
+<wire x1="0" y1="-10.16" x2="1.27" y2="-10.16" width="0.254" layer="1"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-12.7" width="0.254" layer="1"/>
 </package>
 <package name="INTRRIBBON" library_version="22" library_locally_modified="yes">
 <pad name="C1" x="0" y="0" drill="1.016" shape="square"/>
@@ -439,6 +446,59 @@ Data</text>
 <wire x1="7.747" y1="7.747" x2="7.747" y2="4.445" width="0.127" layer="21"/>
 <wire x1="7.747" y1="-7.747" x2="7.747" y2="-4.445" width="0.127" layer="21"/>
 <text x="-6.35" y="-6.35" size="1.27" layer="21">&gt;NAME</text>
+<pad name="CLP" x="0" y="5.9" drill="1.2"/>
+<pad name="RLP" x="5" y="3.8" drill="1.2" diameter="2.4"/>
+<hole x="-5.5" y="0" drill="1.9"/>
+<hole x="5.5" y="0" drill="1.9"/>
+</package>
+<package name="TRRSJACK_OVER" library_version="22" library_locally_modified="yes">
+<pad name="1T" x="4.8" y="-1.9" drill="1.1"/>
+<pad name="4T" x="-4.5" y="-1.9" drill="1.1"/>
+<pad name="4B" x="-4.8" y="-1.9" drill="1.1"/>
+<pad name="1B" x="4.5" y="-1.9" drill="1.1"/>
+<pad name="3T" x="1.6" y="-10" drill="1.1"/>
+<pad name="3B" x="-1.6" y="-10" drill="1.1"/>
+<pad name="2T" x="-3.6" y="-6.9" drill="1.1"/>
+<pad name="2B" x="3.6" y="-6.9" drill="1.1"/>
+<pad name="EXTRA_DATA" x="0" y="-12.87" drill="1.1"/>
+<wire x1="-2.3" y1="0" x2="2.3" y2="0" width="0.127" layer="21"/>
+<wire x1="4.8" y1="1" x2="4.8" y2="-10.4" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-10.4" x2="-4.8" y2="-10.4" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-10.4" x2="-4.8" y2="1" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="1" x2="-4.8" y2="-10.4" width="0.127" layer="22"/>
+<wire x1="-4.8" y1="-10.4" x2="4.8" y2="-10.4" width="0.127" layer="22"/>
+<wire x1="4.8" y1="-10.4" x2="4.8" y2="1" width="0.127" layer="22"/>
+<wire x1="-4.8" y1="1" x2="-2.3" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="0" width="0.127" layer="21"/>
+<wire x1="4.8" y1="1" x2="2.3" y2="1" width="0.127" layer="21"/>
+<wire x1="2.3" y1="1" x2="2.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="1" x2="-2.3" y2="1" width="0.127" layer="22"/>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="0" width="0.127" layer="22"/>
+<wire x1="-2.3" y1="0" x2="2.3" y2="0" width="0.127" layer="22"/>
+<wire x1="2.3" y1="0" x2="2.3" y2="1" width="0.127" layer="22"/>
+<wire x1="2.3" y1="1" x2="4.8" y2="1" width="0.127" layer="22"/>
+<text x="-2.3" y="-4" size="1.27" layer="21">TRRS</text>
+<text x="-2" y="-16.9" size="1.27" layer="21">Extra
+Data</text>
+<text x="2.3" y="-4" size="1.27" layer="22" rot="MR0">TRRS</text>
+<text x="2" y="-16.9" size="1.27" layer="22" rot="MR0">Extra
+Data</text>
+<text x="-3.5" y="-12" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.5" y="-12" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<hole x="0" y="-1.9" drill="1"/>
+<hole x="0" y="-6.9" drill="1"/>
+</package>
+<package name="TRANSPADS_OTHERMILL" library_version="22" library_locally_modified="yes">
+<smd name="VCCT" x="-1.905" y="1.905" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="IN1T" x="-1.905" y="0" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="IN4T" x="1.905" y="0" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="GNDT" x="1.905" y="-1.905" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="GNDB" x="-1.905" y="-1.905" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="IN1B" x="-1.905" y="0" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="IN4B" x="1.905" y="0" dx="1.778" dy="0.9144" layer="16"/>
+<smd name="VCCB" x="1.905" y="1.905" dx="1.778" dy="0.9144" layer="16"/>
+<text x="-3.81" y="-4.445" size="1.27" layer="21">&gt;NAME</text>
+<text x="3.81" y="-4.445" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -452,7 +512,7 @@ Data</text>
 <packageinstance name="PROMICRO"/>
 </packageinstances>
 </package3d>
-<package3d name="PROMICRO_UNDER" urn="urn:adsk.eagle:package:1399517/9" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
+<package3d name="PROMICRO_UNDER" urn="urn:adsk.eagle:package:1399517/10" type="model" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="PROMICRO_UNDER"/>
 </packageinstances>
@@ -472,12 +532,12 @@ Data</text>
 <packageinstance name="TRANSFER"/>
 </packageinstances>
 </package3d>
-<package3d name="TRANSFER_PADS" urn="urn:adsk.eagle:package:3624143/2" type="box" library_version="21">
+<package3d name="TRANSFER_PADS" urn="urn:adsk.eagle:package:3624143/2" locally_modified="yes" type="box" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="TRANSFER_PADS"/>
 </packageinstances>
 </package3d>
-<package3d name="TRRSJACK" urn="urn:adsk.eagle:package:1393948/13" type="model" library_version="22" library_locally_modified="yes">
+<package3d name="TRRSJACK" urn="urn:adsk.eagle:package:1393948/13" locally_modified="yes" type="model" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="TRRSJACK"/>
 </packageinstances>
@@ -623,8 +683,8 @@ Data</text>
 <devices>
 <device name="DOUBLESIDED" package="DOUBLED_MX/ALPS">
 <connects>
-<connect gate="G$1" pin="P1" pad="LAL LAR LCL LCR"/>
-<connect gate="G$1" pin="P2" pad="RAL RAR RCL RCR" route="any"/>
+<connect gate="G$1" pin="P1" pad="LAL LAR LCL LCR LLP"/>
+<connect gate="G$1" pin="P2" pad="RAL RAR RCL RCR RLP"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:1435773/5"/>
@@ -635,8 +695,8 @@ Data</text>
 </device>
 <device name="ONESIDED" package="TOPSIDE_MX/ALPS">
 <connects>
-<connect gate="G$1" pin="P1" pad="LAL LCL"/>
-<connect gate="G$1" pin="P2" pad="RAR RCR"/>
+<connect gate="G$1" pin="P1" pad="CLP LAL LCL"/>
+<connect gate="G$1" pin="P2" pad="RAR RCR RLP" route="any"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:1435774/2"/>
@@ -733,7 +793,7 @@ Data</text>
 <connect gate="G$1" pin="VCC" pad="P$21"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1399517/9"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1399517/10"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -772,7 +832,7 @@ Data</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRANSFER" urn="urn:adsk.eagle:component:1399519/9" prefix="SW" library_version="21">
+<deviceset name="TRANSFER" urn="urn:adsk.eagle:component:1399519/9" locally_modified="yes" prefix="SW" library_version="22" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="TRANSFER" x="0" y="0"/>
 </gates>
@@ -805,6 +865,17 @@ Data</text>
 <technology name=""/>
 </technologies>
 </device>
+<device name="OTHERMILLY" package="TRANSPADS_OTHERMILL">
+<connects>
+<connect gate="G$1" pin="IN1" pad="IN1B IN1T"/>
+<connect gate="G$1" pin="IN4" pad="IN4B IN4T"/>
+<connect gate="G$1" pin="OUT-GND" pad="GNDB GNDT"/>
+<connect gate="G$1" pin="OUT-VCC" pad="VCCB VCCT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TRRSJACK" urn="urn:adsk.eagle:component:1393950/17" locally_modified="yes" prefix="JK" library_version="22" library_locally_modified="yes">
@@ -812,7 +883,7 @@ Data</text>
 <gate name="G$1" symbol="TRRSJACK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TRRSJACK">
+<device name="UNDER" package="TRRSJACK">
 <connects>
 <connect gate="G$1" pin="RING1-3" pad="3B 3T EXTRA_DATA"/>
 <connect gate="G$1" pin="RING2-4" pad="4B 4T"/>
@@ -822,6 +893,17 @@ Data</text>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:1393948/13"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OVER" package="TRRSJACK_OVER">
+<connects>
+<connect gate="G$1" pin="RING1-3" pad="3B 3T EXTRA_DATA"/>
+<connect gate="G$1" pin="RING2-4" pad="4B 4T"/>
+<connect gate="G$1" pin="SLEEVE-1" pad="1B 1T"/>
+<connect gate="G$1" pin="TIP-2" pad="2B 2T"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -917,10 +999,10 @@ Data</text>
 <part name="D16" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:3624144/3"/>
 <part name="D17" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:3624144/3"/>
 <part name="D18" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="DIODE" device="" package3d_urn="urn:adsk.eagle:package:3624144/3"/>
-<part name="UC1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="PROMICRO" device="UNDER" package3d_urn="urn:adsk.eagle:package:1399517/9"/>
+<part name="UC1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="PROMICRO" device="UNDER" package3d_urn="urn:adsk.eagle:package:1399517/10"/>
 <part name="SW1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="RSTSW" device="SMD" package3d_urn="urn:adsk.eagle:package:1393947/7"/>
 <part name="SW2" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRANSFER" device="PADDY" package3d_urn="urn:adsk.eagle:package:3624143/2"/>
-<part name="JK1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRRSJACK" device="" package3d_urn="urn:adsk.eagle:package:1393948/13"/>
+<part name="JK1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRRSJACK" device="UNDER" package3d_urn="urn:adsk.eagle:package:1393948/13"/>
 <part name="INT1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="INTRCNNT" device="4X2"/>
 </parts>
 <sheets>
