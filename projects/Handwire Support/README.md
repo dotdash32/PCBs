@@ -9,7 +9,7 @@ I'm using the Othermill's default 1/32 inch Design Rules, because it lets me cut
 It's designed so that it fits on the outside edge over the pinky keys.
 Optimally, it works well with a very extreme pinky stagger, but otherwise it just sits a little higher.
 
-The board is designed as reversible, so it will flipp between sides of the board.
+The board is designed as reversible, so it will flip between sides of the board.
 It can be made on one sided FR1, all the connections are routed on both sides.
 
 This is very much a stopgap measure so I can prototype faster, it won't likely make it to GB.  
