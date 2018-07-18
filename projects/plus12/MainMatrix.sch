@@ -359,6 +359,32 @@ Data</text>
 <hole x="0" y="-1.9" drill="1"/>
 <hole x="0" y="-6.9" drill="1"/>
 </package>
+<package name="INTRRIBBON" library_version="22" library_locally_modified="yes">
+<pad name="C1" x="0" y="0" drill="1.016" shape="square"/>
+<pad name="C2" x="2.54" y="0" drill="1.016"/>
+<pad name="C3" x="5.08" y="0" drill="1.016"/>
+<pad name="C4" x="7.62" y="0" drill="1.016"/>
+<pad name="C5" x="0" y="-2.54" drill="1.016"/>
+<pad name="C6" x="2.54" y="-2.54" drill="1.016"/>
+<pad name="T1" x="5.08" y="-2.54" drill="1.016"/>
+<pad name="T2" x="7.62" y="-2.54" drill="1.016"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-3.81" x2="8.89" y2="1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="1.27" x2="0" y2="1.27" width="0.127" layer="21"/>
+<text x="0" y="-5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.35" y="-5.08" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<wire x1="0" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="-0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="0" y2="1.27" width="0.127" layer="22"/>
+<wire x1="0" y1="1.27" x2="-0.635" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="8.89" y1="-3.81" x2="8.89" y2="1.27" width="0.127" layer="22"/>
+<wire x1="8.89" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="22"/>
+</package>
 <package name="INTRCNNT" urn="urn:adsk.eagle:footprint:3650899/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
 <pad name="C1" x="0" y="0" drill="1.016" shape="square"/>
 <pad name="C2" x="2.54" y="0" drill="1.016"/>
@@ -807,7 +833,7 @@ Data</text>
 <gate name="G$1" symbol="INTRCNNT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="INTRCNNT">
+<device name="1X8" package="INTRCNNT">
 <connects>
 <connect gate="G$1" pin="C1" pad="C1"/>
 <connect gate="G$1" pin="C2" pad="C2"/>
@@ -821,6 +847,21 @@ Data</text>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3650901/1"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4X2" package="INTRRIBBON">
+<connects>
+<connect gate="G$1" pin="C1" pad="C1"/>
+<connect gate="G$1" pin="C2" pad="C2"/>
+<connect gate="G$1" pin="C3" pad="C3"/>
+<connect gate="G$1" pin="C4" pad="C4"/>
+<connect gate="G$1" pin="C5" pad="C5"/>
+<connect gate="G$1" pin="C6" pad="C6"/>
+<connect gate="G$1" pin="T1" pad="T1"/>
+<connect gate="G$1" pin="T2" pad="T2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -880,7 +921,7 @@ Data</text>
 <part name="SW1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="RSTSW" device="SMD" package3d_urn="urn:adsk.eagle:package:1393947/7"/>
 <part name="SW2" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRANSFER" device="PADDY" package3d_urn="urn:adsk.eagle:package:3624143/2"/>
 <part name="JK1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="TRRSJACK" device="" package3d_urn="urn:adsk.eagle:package:1393948/13"/>
-<part name="INT1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="INTRCNNT" device="" package3d_urn="urn:adsk.eagle:package:3650901/1"/>
+<part name="INT1" library="Keys" library_urn="urn:adsk.eagle:library:1331239" deviceset="INTRCNNT" device="4X2"/>
 </parts>
 <sheets>
 <sheet>
