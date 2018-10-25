@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -72,6 +72,9 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>&lt;b&gt; Logos &lt;/b&gt;
+&lt;p&gt;
+Logos for Gayley Scientific.  They are in a library so the images are movable.</description>
 <packages>
 <package name="1INCH_TOP">
 <rectangle x1="11.99388125" y1="0.1008375" x2="13.370559375" y2="0.11938125" layer="21"/>

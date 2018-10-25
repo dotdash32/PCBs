@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="FR-LTR-ON-PCB">
+<text x="0" y="2.54" size="0.8128" layer="16" font="vector" ratio="12" rot="MR0" align="bottom-right">&gt;CNAME</text>
+<text x="0" y="1.27" size="0.8128" layer="16" font="vector" ratio="12" rot="MR0" align="bottom-right">&gt;DATECODE</text>
+<text x="0" y="0" size="0.8128" layer="16" font="vector" ratio="12" rot="MR0" align="bottom-right">&gt;CREVISION</text>
+</package>
+</packages>
+<symbols>
+<symbol name="FR-LTR">
+<rectangle x1="164.7952" y1="0" x2="165.4048" y2="20.32" layer="94"/>
+<wire x1="211.32" y1="0.154" x2="211.32" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="211.32" y1="5.08" x2="257.81" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="211.32" y1="5.08" x2="165.1" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="165.1" y1="10.16" x2="211.32" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="211.32" y1="10.16" x2="257.81" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="165.1" y1="15.24" x2="257.81" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="211.32" y1="5.08" x2="211.32" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="165.1" y1="19.05" x2="165.1" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="165.1" y1="20.32" x2="166.37" y2="20.32" width="0.6096" layer="94"/>
+<text x="167.64" y="11.43" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="167.64" y="6.35" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="181.61" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="167.64" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="167.64" y="16.51" size="2.54" layer="94" font="vector">&gt;CNAME</text>
+<text x="212.19" y="1.27" size="2.54" layer="94" font="vector">Rev:</text>
+<text x="212.29" y="6.35" size="2.54" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="220.95" y="1.17" size="2.54" layer="94" font="vector">&gt;CREVISION</text>
+<frame x1="-3.81" y1="-3.81" x2="261.62" y2="198.12" columns="9" rows="6" layer="94"/>
+<rectangle x1="165.1" y1="20.0152" x2="257.81" y2="20.6248" layer="94"/>
+</symbol>
+<symbol name="FR-A4">
+<rectangle x1="183.5912" y1="0" x2="184.2008" y2="20.32" layer="94"/>
+<wire x1="230.116" y1="0.154" x2="230.116" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="230.116" y1="5.08" x2="276.606" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="230.116" y1="5.08" x2="183.896" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="183.896" y1="10.16" x2="230.116" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="230.116" y1="10.16" x2="276.606" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="183.896" y1="15.24" x2="276.606" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="230.116" y1="5.08" x2="230.116" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="183.896" y1="19.05" x2="183.896" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="183.896" y1="20.32" x2="185.166" y2="20.32" width="0.6096" layer="94"/>
+<text x="186.436" y="11.43" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="186.436" y="6.35" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="200.406" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="186.436" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="186.436" y="16.51" size="2.54" layer="94" font="vector">&gt;CNAME</text>
+<text x="230.986" y="1.27" size="2.54" layer="94" font="vector">Rev:</text>
+<text x="231.086" y="6.35" size="2.54" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="239.746" y="1.17" size="2.54" layer="94" font="vector">&gt;CREVISION</text>
+<frame x1="-3.81" y1="-3.81" x2="280.416" y2="184.404" columns="9" rows="6" layer="94"/>
+<rectangle x1="183.896" y1="20.0152" x2="276.606" y2="20.6248" layer="94"/>
+</symbol>
+<symbol name="FR-11X17">
+<rectangle x1="318.2112" y1="0" x2="318.8208" y2="20.32" layer="94"/>
+<wire x1="364.736" y1="0.154" x2="364.736" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="364.736" y1="5.08" x2="411.226" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="364.736" y1="5.08" x2="318.516" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="318.516" y1="10.16" x2="364.736" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="364.736" y1="10.16" x2="411.226" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="318.516" y1="15.24" x2="411.226" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="364.736" y1="5.08" x2="364.736" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="318.516" y1="19.05" x2="318.516" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="318.516" y1="20.32" x2="319.786" y2="20.32" width="0.6096" layer="94"/>
+<text x="321.056" y="11.43" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="321.056" y="6.35" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="335.026" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="321.056" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="321.056" y="16.51" size="2.54" layer="94" font="vector">&gt;CNAME</text>
+<text x="365.606" y="1.27" size="2.54" layer="94" font="vector">Rev:</text>
+<text x="365.706" y="6.35" size="2.54" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="374.366" y="1.17" size="2.54" layer="94" font="vector">&gt;CREVISION</text>
+<frame x1="-3.81" y1="-3.81" x2="415.29" y2="262.89" columns="9" rows="6" layer="94"/>
+<rectangle x1="318.516" y1="20.0152" x2="411.226" y2="20.6248" layer="94"/>
+</symbol>
+<symbol name="FR-A3">
+<rectangle x1="306.5272" y1="0" x2="307.1368" y2="20.32" layer="94"/>
+<wire x1="353.052" y1="0.154" x2="353.052" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="353.052" y1="5.08" x2="399.542" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="353.052" y1="5.08" x2="306.832" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="306.832" y1="10.16" x2="353.052" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="353.052" y1="10.16" x2="399.542" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="306.832" y1="15.24" x2="399.542" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="353.052" y1="5.08" x2="353.052" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="306.832" y1="19.05" x2="306.832" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="306.832" y1="20.32" x2="308.102" y2="20.32" width="0.6096" layer="94"/>
+<text x="309.372" y="11.43" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="309.372" y="6.35" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="323.342" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="309.372" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="309.372" y="16.51" size="2.54" layer="94" font="vector">&gt;CNAME</text>
+<text x="353.922" y="1.27" size="2.54" layer="94" font="vector">Rev:</text>
+<text x="354.022" y="6.35" size="2.54" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="362.682" y="1.17" size="2.54" layer="94" font="vector">&gt;CREVISION</text>
+<frame x1="-3.81" y1="-3.81" x2="403.352" y2="280.416" columns="9" rows="6" layer="94"/>
+<rectangle x1="306.832" y1="20.0152" x2="399.542" y2="20.6248" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME_LTR_CU_MARK" prefix="FRAME">
+<description>Frame sized for 8.5x11" page with 0.25" margin. Places name, datecode and revision mark in bottom copper layer of PCB.</description>
+<gates>
+<gate name="G$1" symbol="FR-LTR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FR-LTR-ON-PCB">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME_A4_CU_MARK" prefix="FRAME">
+<description>Frame sized for A4 page with 6mm margin. Places name, datecode and revision mark in bottom copper layer of PCB.</description>
+<gates>
+<gate name="G$1" symbol="FR-A4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FR-LTR-ON-PCB">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME_A3_CU_MARK" prefix="FRAME">
+<description>Frame sized for A3 page with 6mm margin. Places name, datecode and revision mark in bottom copper layer of PCB.</description>
+<gates>
+<gate name="G$1" symbol="FR-A3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FR-LTR-ON-PCB">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME_11X17_CU_MARK" prefix="FRAME">
+<description>Frame sized for 11x17" page with 0.25" margin. Places name, datecode and revision mark in bottom copper layer of PCB.</description>
+<gates>
+<gate name="G$1" symbol="FR-11X17" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FR-LTR-ON-PCB">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
