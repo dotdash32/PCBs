@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -76,18 +76,17 @@
 <library name="Keys" urn="urn:adsk.eagle:library:1331239">
 <packages>
 <package name="DOUBLED_MX/ALPS" urn="urn:adsk.eagle:footprint:1435769/4" locally_modified="yes" library_version="22" library_locally_modified="yes">
-<hole x="0" y="0" drill="0.35"/>
 <hole x="0" y="0" drill="3.9878"/>
 <hole x="-5.08" y="0" drill="1.7018"/>
 <hole x="5.08" y="0" drill="1.7018"/>
-<pad name="LAL" x="-2.5" y="4" drill="1.5" diameter="3.048"/>
-<pad name="RAR" x="2.5" y="4.5" drill="1.5"/>
-<pad name="LCL" x="-3.81" y="2.54" drill="1.4986" diameter="3.048"/>
-<pad name="RCR" x="2.54" y="5.08" drill="1.4986" diameter="3.048"/>
-<pad name="RAL" x="2.5" y="4" drill="1.5" diameter="3.048"/>
-<pad name="LAR" x="-2.5" y="4.5" drill="1.5"/>
-<pad name="RCL" x="3.81" y="2.54" drill="1.4986" diameter="3.048"/>
-<pad name="LCR" x="-2.54" y="5.08" drill="1.4986" diameter="3.048"/>
+<pad name="LAL" x="-2.5" y="4" drill="1.6129"/>
+<pad name="RAR" x="2.5" y="4.5" drill="1.6129"/>
+<pad name="LCL" x="-3.81" y="2.54" drill="1.6129"/>
+<pad name="RCR" x="2.54" y="5.08" drill="1.6129"/>
+<pad name="RAL" x="2.5" y="4" drill="1.6129"/>
+<pad name="LAR" x="-2.5" y="4.5" drill="1.6129"/>
+<pad name="RCL" x="3.81" y="2.54" drill="1.6129"/>
+<pad name="LCR" x="-2.54" y="5.08" drill="1.6129"/>
 <wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.127" layer="49"/>
 <wire x1="9.525" y1="9.525" x2="9.525" y2="-9.525" width="0.127" layer="49"/>
 <wire x1="9.525" y1="-9.525" x2="-9.525" y2="-9.525" width="0.127" layer="49"/>
@@ -108,8 +107,13 @@
 <wire x1="7.747" y1="-7.747" x2="4.445" y2="-7.747" width="0.127" layer="22"/>
 <wire x1="-7.747" y1="-4.445" x2="-7.747" y2="-7.747" width="0.127" layer="22"/>
 <wire x1="-7.747" y1="-7.747" x2="-4.445" y2="-7.747" width="0.127" layer="22"/>
-<text x="-6.35" y="-6.35" size="1.27" layer="25">&gt;NAME</text>
-<text x="6.35" y="-6.35" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="7.62" y="-7.62" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
+<pad name="RLMID" x="0" y="-5.9" drill="1.6129"/>
+<pad name="LLP" x="-5" y="-3.8" drill="1.6129"/>
+<pad name="LRLP" x="5" y="-3.8" drill="1.6129"/>
+<hole x="-5.5" y="0" drill="1.9"/>
+<hole x="5.5" y="0" drill="1.9"/>
 </package>
 <package name="DIODE_COMBO" urn="urn:adsk.eagle:footprint:3624139/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
 <pad name="CATT" x="-5.08" y="0" drill="1.016" diameter="2.032" shape="square"/>
@@ -229,6 +233,10 @@
 <wire x1="7.747" y1="7.747" x2="7.747" y2="4.445" width="0.127" layer="21"/>
 <wire x1="7.747" y1="-7.747" x2="7.747" y2="-4.445" width="0.127" layer="21"/>
 <text x="-6.35" y="-6.35" size="1.27" layer="21">&gt;NAME</text>
+<pad name="CLP" x="0" y="5.9" drill="1.2"/>
+<pad name="RLP" x="5" y="3.8" drill="1.2" diameter="2.4"/>
+<hole x="-5.5" y="0" drill="1.9"/>
+<hole x="5.5" y="0" drill="1.9"/>
 </package>
 </packages>
 <packages3d>
@@ -298,8 +306,8 @@
 <devices>
 <device name="DOUBLESIDED" package="DOUBLED_MX/ALPS">
 <connects>
-<connect gate="G$1" pin="P1" pad="LAL LAR LCL LCR"/>
-<connect gate="G$1" pin="P2" pad="RAL RAR RCL RCR" route="any"/>
+<connect gate="G$1" pin="P1" pad="LAL LAR LCL LCR LLP LRLP"/>
+<connect gate="G$1" pin="P2" pad="RAL RAR RCL RCR RLMID"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:1435773/5"/>
@@ -310,8 +318,8 @@
 </device>
 <device name="ONESIDED" package="TOPSIDE_MX/ALPS">
 <connects>
-<connect gate="G$1" pin="P1" pad="LAL LCL"/>
-<connect gate="G$1" pin="P2" pad="RAR RCR"/>
+<connect gate="G$1" pin="P1" pad="CLP LAL LCL"/>
+<connect gate="G$1" pin="P2" pad="RAR RCR RLP" route="any"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:1435774/2"/>
