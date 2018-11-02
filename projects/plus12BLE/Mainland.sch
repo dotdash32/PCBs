@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -310,40 +310,30 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <text x="-3.175" y="3.175" size="1.27" layer="25">&gt;NAME</text>
 <text x="3.175" y="3.175" size="1.27" layer="26" rot="MR0">&gt;NAME</text>
 </package>
-<package name="WM17904">
+<package name="WM17904_SIMP">
 <wire x1="6.35" y1="0" x2="4.65" y2="0" width="0" layer="20"/>
 <wire x1="4.65" y1="0" x2="4.65" y2="4.97" width="0" layer="20"/>
 <wire x1="4.65" y1="5.57" x2="-4.65" y2="5.57" width="0" layer="20"/>
 <wire x1="-4.65" y1="4.97" x2="-4.65" y2="0" width="0" layer="20"/>
 <wire x1="-4.65" y1="0" x2="-6.35" y2="0" width="0" layer="20"/>
-<smd name="B1" x="3.1" y="6.12" dx="1" dy="0.7" layer="1" rot="R180"/>
-<smd name="B2" x="2.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B3" x="1.75" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B4" x="1.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B5" x="0.75" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B6" x="0.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B7" x="-0.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B8" x="-0.75" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B9" x="-1.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B10" x="-1.75" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B11" x="-2.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B12" x="-3.1" y="6.12" dx="1" dy="0.7" layer="1" rot="R180"/>
+<smd name="B1" x="3.1" y="6.17" dx="1" dy="0.6" layer="1" rot="R180"/>
+<smd name="B4" x="1.25" y="6.17" dx="0.3" dy="0.6" layer="1"/>
+<smd name="B5" x="0.75" y="6.17" dx="0.3" dy="0.6" layer="1"/>
+<smd name="B6" x="0.25" y="6.17" dx="0.3" dy="0.6" layer="1"/>
+<smd name="B7" x="-0.25" y="6.17" dx="0.3" dy="0.6" layer="1"/>
+<smd name="B9" x="-1.25" y="6.17" dx="0.3" dy="0.6" layer="1"/>
+<smd name="B12" x="-3.1" y="6.17" dx="1" dy="0.6" layer="1" rot="R180"/>
 <smd name="A12" x="3" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A11" x="2.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A10" x="2" y="7.42" dx="0.3" dy="0.7" layer="1"/>
 <smd name="A9" x="1.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A8" x="1" y="7.42" dx="0.3" dy="0.7" layer="1"/>
 <smd name="A7" x="0.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
 <smd name="A6" x="-0.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
 <smd name="A5" x="-1" y="7.42" dx="0.3" dy="0.7" layer="1"/>
 <smd name="A4" x="-1.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A3" x="-2" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A2" x="-2.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
 <smd name="A1" x="-3" y="7.42" dx="0.3" dy="0.7" layer="1"/>
 <wire x1="-4.65" y1="5.57" x2="-4.65" y2="4.97" width="0" layer="20" curve="180"/>
 <wire x1="4.65" y1="5.57" x2="4.65" y2="4.97" width="0" layer="20" curve="-180"/>
-<pad name="BLADELB" x="-5.65" y="2.05" drill="0.6" diameter="1.1" shape="long" rot="R90"/>
-<pad name="BLADERB" x="5.65" y="2.05" drill="0.6" diameter="1.1" shape="long" rot="R90"/>
+<pad name="BLADELB" x="-5.65" y="2.05" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
+<pad name="BLADERB" x="5.65" y="2.05" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
 <wire x1="-5.95" y1="0.65" x2="-5.95" y2="2.65" width="0" layer="46"/>
 <wire x1="-5.35" y1="0.65" x2="-5.35" y2="2.65" width="0" layer="46"/>
 <wire x1="5.35" y1="0.65" x2="5.35" y2="2.65" width="0" layer="46"/>
@@ -352,8 +342,8 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <wire x1="5.35" y1="0.65" x2="5.95" y2="0.65" width="0" layer="46" curve="180"/>
 <wire x1="-5.35" y1="2.65" x2="-5.95" y2="2.65" width="0" layer="46" curve="180"/>
 <wire x1="-5.95" y1="0.65" x2="-5.35" y2="0.65" width="0" layer="46" curve="180"/>
-<pad name="BLADELF" x="-5.65" y="1.25" drill="0.6" diameter="1.1" shape="long" rot="R90"/>
-<pad name="BLADERF" x="5.65" y="1.25" drill="0.5" diameter="1.1" shape="long" rot="R90"/>
+<pad name="BLADELF" x="-5.65" y="1.25" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
+<pad name="BLADERF" x="5.65" y="1.25" drill="0.5" diameter="1.05" shape="long" rot="R90"/>
 <pad name="SHELLL" x="-4.32" y="7.01" drill="0.5" diameter="1.1" shape="long" rot="R90"/>
 <pad name="SHELLR" x="4.32" y="7.01" drill="0.6" shape="long" rot="R90"/>
 <wire x1="-4.02" y1="7.51" x2="-4.02" y2="6.51" width="0" layer="46"/>
@@ -369,87 +359,6 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <wire x1="-6.35" y1="8.255" x2="-6.35" y2="0" width="0" layer="21"/>
 <text x="-6.35" y="1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="7.62" y="1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="CX70M-P1_SIMP">
-<description>I'm so sorry, the dummy pins should make it easier? idk anymore</description>
-<wire x1="4.67" y1="0" x2="4.67" y2="-6.65" width="0.127" layer="20"/>
-<wire x1="4.67" y1="-6.65" x2="-4.67" y2="-6.65" width="0.127" layer="20"/>
-<wire x1="-4.67" y1="-6.65" x2="-4.67" y2="0" width="0.127" layer="20"/>
-<pad name="CONN2" x="5.55" y="-2.6" drill="0.6"/>
-<pad name="CONN1" x="-5.55" y="-2.6" drill="0.6"/>
-<pad name="CONN3" x="-5.55" y="-7.65" drill="0.6"/>
-<pad name="CONN4" x="5.55" y="-7.65" drill="0.6"/>
-<pad name="B4" x="-2" y="-7.2" drill="0.4" diameter="0.6"/>
-<pad name="B5" x="-1.2" y="-7.2" drill="0.4" diameter="0.6"/>
-<pad name="B6" x="-0.4" y="-7.2" drill="0.4" diameter="0.6"/>
-<pad name="B7" x="0.4" y="-7.2" drill="0.4" diameter="0.6"/>
-<pad name="B8" x="1.2" y="-7.22" drill="0.4" diameter="0.6"/>
-<pad name="B9" x="2" y="-7.2" drill="0.4" diameter="0.6"/>
-<smd name="B1" x="-3.4" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A12" x="-2.2" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A9" x="-1" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A7" x="-0.2" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A6" x="0.2" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A5" x="0.6" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A4" x="1" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A1" x="2.2" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="B12" x="3.4" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="OUT1" x="-3.915" y="-8.125" dx="0.46" dy="0.85" layer="1"/>
-<smd name="OUT2" x="3.915" y="-8.125" dx="0.46" dy="0.85" layer="1"/>
-<wire x1="-6.35" y1="0" x2="-6.35" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="-8.89" x2="6.35" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-8.89" x2="6.35" y2="0" width="0.127" layer="21"/>
-<text x="-7.62" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="8.89" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="-4.67" y1="0" x2="-7.62" y2="0" width="0.127" layer="20"/>
-<wire x1="4.67" y1="0" x2="7.62" y2="0" width="0.127" layer="20"/>
-<smd name="DUMMY1" x="-2.54" y="-1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="DUMMY2" x="0" y="-1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="DUMMY3" x="2.54" y="-1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="DUMMY4" x="0" y="-2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="DUMMY5" x="0" y="-3.81" dx="1.27" dy="0.635" layer="1"/>
-</package>
-<package name="CX70M-P1">
-<wire x1="4.67" y1="0" x2="4.67" y2="-6.65" width="0.127" layer="20"/>
-<wire x1="4.67" y1="-6.65" x2="-4.67" y2="-6.65" width="0.127" layer="20"/>
-<wire x1="-4.67" y1="-6.65" x2="-4.67" y2="0" width="0.127" layer="20"/>
-<pad name="CONN2" x="5.55" y="-2.6" drill="0.6"/>
-<pad name="CONN1" x="-5.55" y="-2.6" drill="0.6"/>
-<pad name="CONN3" x="-5.55" y="-7.65" drill="0.6"/>
-<pad name="CONN4" x="5.55" y="-7.65" drill="0.6"/>
-<pad name="B4" x="-2" y="-7.2" drill="0.4" diameter="0.6"/>
-<pad name="B5" x="-1.2" y="-7.2" drill="0.4" diameter="0.6"/>
-<pad name="B6" x="-0.4" y="-7.2" drill="0.4" diameter="0.6"/>
-<pad name="B7" x="0.4" y="-7.2" drill="0.4" diameter="0.6"/>
-<pad name="B8" x="1.2" y="-7.22" drill="0.4" diameter="0.6"/>
-<pad name="B9" x="2" y="-7.2" drill="0.4" diameter="0.6"/>
-<smd name="B1" x="-3.4" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="B2" x="-3" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="B3" x="-2.6" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A12" x="-2.2" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A11" x="-1.8" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A10" x="-1.4" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A9" x="-1" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A8" x="-0.6" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A7" x="-0.2" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A6" x="0.2" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A5" x="0.6" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A4" x="1" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A3" x="1.4" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A2" x="1.8" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="A1" x="2.2" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="B10" x="2.6" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="B11" x="3" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="B12" x="3.4" y="-8.125" dx="0.23" dy="0.85" layer="1"/>
-<smd name="OUT1" x="-3.915" y="-8.125" dx="0.46" dy="0.85" layer="1"/>
-<smd name="OUT2" x="3.915" y="-8.125" dx="0.46" dy="0.85" layer="1"/>
-<wire x1="-6.35" y1="0" x2="-6.35" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="-8.89" x2="6.35" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-8.89" x2="6.35" y2="0" width="0.127" layer="21"/>
-<text x="-7.62" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="8.89" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="-4.67" y1="0" x2="-7.62" y2="0" width="0.127" layer="20"/>
-<wire x1="4.67" y1="0" x2="7.62" y2="0" width="0.127" layer="20"/>
 </package>
 <package name="INTRCNNT" urn="urn:adsk.eagle:footprint:3650899/1" locally_modified="yes">
 <pad name="C1" x="0" y="0" drill="1.016" shape="square"/>
@@ -552,66 +461,6 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <wire x1="-3.302" y1="3.81" x2="-1.778" y2="3.81" width="0" layer="46" curve="180"/>
 <wire x1="-1.778" y1="5.08" x2="-1.778" y2="3.81" width="0" layer="46"/>
 <wire x1="-3.302" y1="5.08" x2="-3.302" y2="3.81" width="0" layer="46"/>
-</package>
-<package name="WM17904_SIMP">
-<wire x1="6.35" y1="0" x2="4.65" y2="0" width="0" layer="20"/>
-<wire x1="4.65" y1="0" x2="4.65" y2="4.97" width="0" layer="20"/>
-<wire x1="4.65" y1="5.57" x2="-4.65" y2="5.57" width="0" layer="20"/>
-<wire x1="-4.65" y1="4.97" x2="-4.65" y2="0" width="0" layer="20"/>
-<wire x1="-4.65" y1="0" x2="-6.35" y2="0" width="0" layer="20"/>
-<smd name="B1" x="3.1" y="6.12" dx="1" dy="0.7" layer="1" rot="R180"/>
-<smd name="B2" x="2.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B3" x="1.75" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B4" x="1.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B5" x="0.75" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B6" x="0.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B7" x="-0.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B8" x="0.52" y="4.85" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B9" x="-1.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B10" x="-1.75" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B11" x="-2.25" y="6.12" dx="0.3" dy="0.7" layer="1"/>
-<smd name="B12" x="-3.1" y="6.12" dx="1" dy="0.7" layer="1" rot="R180"/>
-<smd name="A12" x="3" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A11" x="2.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A10" x="2" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A9" x="1.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A7" x="0.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A6" x="-0.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A5" x="-1" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A4" x="-1.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A3" x="-2" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A2" x="-2.5" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<smd name="A1" x="-3" y="7.42" dx="0.3" dy="0.7" layer="1"/>
-<wire x1="-4.65" y1="5.57" x2="-4.65" y2="4.97" width="0" layer="20" curve="180"/>
-<wire x1="4.65" y1="5.57" x2="4.65" y2="4.97" width="0" layer="20" curve="-180"/>
-<pad name="BLADELB" x="-5.65" y="2.05" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
-<pad name="BLADERB" x="5.65" y="2.05" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
-<wire x1="-5.95" y1="0.65" x2="-5.95" y2="2.65" width="0" layer="46"/>
-<wire x1="-5.35" y1="0.65" x2="-5.35" y2="2.65" width="0" layer="46"/>
-<wire x1="5.35" y1="0.65" x2="5.35" y2="2.65" width="0" layer="46"/>
-<wire x1="5.95" y1="0.65" x2="5.95" y2="2.65" width="0" layer="46"/>
-<wire x1="5.95" y1="2.65" x2="5.35" y2="2.65" width="0" layer="46" curve="180"/>
-<wire x1="5.35" y1="0.65" x2="5.95" y2="0.65" width="0" layer="46" curve="180"/>
-<wire x1="-5.35" y1="2.65" x2="-5.95" y2="2.65" width="0" layer="46" curve="180"/>
-<wire x1="-5.95" y1="0.65" x2="-5.35" y2="0.65" width="0" layer="46" curve="180"/>
-<pad name="BLADELF" x="-5.65" y="1.25" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
-<pad name="BLADERF" x="5.65" y="1.25" drill="0.5" diameter="1.05" shape="long" rot="R90"/>
-<pad name="SHELLL" x="-4.32" y="7.01" drill="0.5" diameter="1.1" shape="long" rot="R90"/>
-<pad name="SHELLR" x="4.32" y="7.01" drill="0.6" shape="long" rot="R90"/>
-<wire x1="-4.02" y1="7.51" x2="-4.02" y2="6.51" width="0" layer="46"/>
-<wire x1="-4.02" y1="6.51" x2="-4.62" y2="6.51" width="0" layer="46" curve="-180"/>
-<wire x1="-4.62" y1="7.51" x2="-4.62" y2="6.51" width="0" layer="46"/>
-<wire x1="4.02" y1="7.51" x2="4.02" y2="6.51" width="0" layer="46"/>
-<wire x1="4.62" y1="7.51" x2="4.62" y2="6.51" width="0" layer="46"/>
-<wire x1="-4.02" y1="7.51" x2="-4.62" y2="7.51" width="0" layer="46" curve="180"/>
-<wire x1="4.02" y1="6.51" x2="4.62" y2="6.51" width="0" layer="46" curve="180"/>
-<wire x1="4.02" y1="7.51" x2="4.62" y2="7.51" width="0" layer="46" curve="-180"/>
-<wire x1="-6.35" y1="8.255" x2="6.35" y2="8.255" width="0" layer="21"/>
-<wire x1="6.35" y1="8.255" x2="6.35" y2="0" width="0" layer="21"/>
-<wire x1="-6.35" y1="8.255" x2="-6.35" y2="0" width="0" layer="21"/>
-<text x="-6.35" y="1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="7.62" y="1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<smd name="A8" x="1.27" y="3.81" dx="1.27" dy="0.635" layer="1"/>
 </package>
 <package name="DIODE_SMD">
 <smd name="CATST" x="-1.1176" y="0" dx="0.8382" dy="0.635" layer="1" rot="R90"/>
@@ -754,14 +603,10 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <circle x="12.7" y="0" radius="1.27" width="0.254" layer="94"/>
 <text x="0" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="USB-C">
+<symbol name="USB-C2.0">
 <pin name="VBUS" x="15.24" y="15.24" length="middle" rot="R180"/>
 <pin name="D+" x="15.24" y="7.62" length="middle" rot="R180"/>
 <pin name="D-" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="SSTX-" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="SSTX+" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="SSRX-" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="SSRX+" x="15.24" y="-20.32" length="middle" rot="R180"/>
 <pin name="SHIELD" x="-10.16" y="-27.94" length="middle" rot="R90"/>
 <pin name="DRAIN" x="-5.08" y="-27.94" length="middle" rot="R90"/>
 <pin name="GND" x="0" y="-27.94" length="middle" rot="R90"/>
@@ -786,8 +631,6 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
 <text x="-20.32" y="20.32" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-27.94" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="SBU1" x="-25.4" y="-5.08" length="middle"/>
-<pin name="SBU2" x="-25.4" y="-10.16" length="middle"/>
 <pin name="CC1" x="-25.4" y="-15.24" length="middle"/>
 <pin name="CC2" x="-25.4" y="-20.32" length="middle"/>
 </symbol>
@@ -942,89 +785,20 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB-C" prefix="J">
+<deviceset name="USB-C2.0">
 <gates>
-<gate name="G$1" symbol="USB-C" x="0" y="0"/>
+<gate name="G$1" symbol="USB-C2.0" x="0" y="0"/>
 </gates>
 <devices>
-<device name="CM3.0" package="CX70M-P1">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="D+" pad="A6 B6"/>
-<connect gate="G$1" pin="D-" pad="A7 B7"/>
-<connect gate="G$1" pin="DRAIN" pad="OUT1 OUT2"/>
-<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHIELD" pad="CONN1 CONN2 CONN3 CONN4"/>
-<connect gate="G$1" pin="SSRX+" pad="A11 B11"/>
-<connect gate="G$1" pin="SSRX-" pad="A10 B10"/>
-<connect gate="G$1" pin="SSTX+" pad="A2 B2"/>
-<connect gate="G$1" pin="SSTX-" pad="A3 B3"/>
-<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CM2.0" package="CX70M-P1_SIMP">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="D+" pad="A6 B6"/>
-<connect gate="G$1" pin="D-" pad="A7 B7"/>
-<connect gate="G$1" pin="DRAIN" pad="OUT1 OUT2"/>
-<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
-<connect gate="G$1" pin="SBU1" pad="DUMMY5"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHIELD" pad="CONN1 CONN2 CONN3 CONN4"/>
-<connect gate="G$1" pin="SSRX+" pad="DUMMY1"/>
-<connect gate="G$1" pin="SSRX-" pad="DUMMY2"/>
-<connect gate="G$1" pin="SSTX+" pad="DUMMY3"/>
-<connect gate="G$1" pin="SSTX-" pad="DUMMY4"/>
-<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WM3.0" package="WM17904">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="D+" pad="A6 B6"/>
-<connect gate="G$1" pin="D-" pad="A7 B7"/>
-<connect gate="G$1" pin="DRAIN" pad="SHELLL SHELLR"/>
-<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12" route="any"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHIELD" pad="BLADELB BLADELF BLADERB BLADERF" route="any"/>
-<connect gate="G$1" pin="SSRX+" pad="A11 B11"/>
-<connect gate="G$1" pin="SSRX-" pad="A10 B10"/>
-<connect gate="G$1" pin="SSTX+" pad="A2 B2"/>
-<connect gate="G$1" pin="SSTX-" pad="A3 B3"/>
-<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="WM2.0" package="WM17904_SIMP">
 <connects>
 <connect gate="G$1" pin="CC1" pad="A5"/>
 <connect gate="G$1" pin="CC2" pad="B5"/>
 <connect gate="G$1" pin="D+" pad="A6 B6"/>
 <connect gate="G$1" pin="D-" pad="A7 B7"/>
-<connect gate="G$1" pin="DRAIN" pad="SHELLL SHELLR"/>
-<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12" route="any"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHIELD" pad="BLADELB BLADELF BLADERB BLADERF" route="any"/>
-<connect gate="G$1" pin="SSRX+" pad="A11 B11"/>
-<connect gate="G$1" pin="SSRX-" pad="A10 B10"/>
-<connect gate="G$1" pin="SSTX+" pad="A2 B2"/>
-<connect gate="G$1" pin="SSTX-" pad="A3 B3"/>
+<connect gate="G$1" pin="DRAIN" pad="BLADELB BLADELF BLADERB BLADERF"/>
+<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
+<connect gate="G$1" pin="SHIELD" pad="SHELLL SHELLR"/>
 <connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
 </connects>
 <technologies>
@@ -15561,7 +15335,7 @@ CONN_04
 <part name="SW2" library="Keys" deviceset="RSTSW" device="SMALL_SMD" value="RSTSWSMALL_SMD"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J1" library="Keys" deviceset="USB-C" device="WM2.0" value="USB-CWM2.0"/>
+<part name="J1" library="Keys" deviceset="USB-C2.0" device="WM2.0" value="USB-C2.0WM2.0"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="5.1k"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
