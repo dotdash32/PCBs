@@ -342,8 +342,8 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <wire x1="5.35" y1="0.65" x2="5.95" y2="0.65" width="0" layer="46" curve="180"/>
 <wire x1="-5.35" y1="2.65" x2="-5.95" y2="2.65" width="0" layer="46" curve="180"/>
 <wire x1="-5.95" y1="0.65" x2="-5.35" y2="0.65" width="0" layer="46" curve="180"/>
-<pad name="BLADELF" x="-5.65" y="1.25" drill="0.6" diameter="1.05" shape="long" rot="R90"/>
-<pad name="BLADERF" x="5.65" y="1.25" drill="0.5" diameter="1.05" shape="long" rot="R90"/>
+<pad name="BLADELF" x="-5.65" y="1.25" drill="0.4" diameter="0.95" shape="long" rot="R90"/>
+<pad name="BLADERF" x="5.65" y="1.25" drill="0.4" diameter="0.95" shape="long" rot="R90"/>
 <pad name="SHELLL" x="-4.32" y="7.01" drill="0.5" diameter="1.1" shape="long" rot="R90"/>
 <pad name="SHELLR" x="4.32" y="7.01" drill="0.6" shape="long" rot="R90"/>
 <wire x1="-4.02" y1="7.51" x2="-4.02" y2="6.51" width="0" layer="46"/>
@@ -420,8 +420,6 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 </package>
 <package name="DOUBLED_SLOTS">
 <hole x="0" y="0" drill="3.9878"/>
-<hole x="-5.08" y="0" drill="1.7018"/>
-<hole x="5.08" y="0" drill="1.7018"/>
 <pad name="LCL" x="-3.81" y="2.54" drill="1.6129"/>
 <pad name="RCL" x="3.81" y="2.54" drill="1.6129"/>
 <wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.127" layer="49"/>
@@ -449,8 +447,6 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <pad name="RLMID" x="0" y="-5.9" drill="1.6129"/>
 <pad name="LLP" x="-5" y="-3.8" drill="1.6129"/>
 <pad name="LRLP" x="5" y="-3.8" drill="1.6129"/>
-<hole x="-5.5" y="0" drill="1.9"/>
-<hole x="5.5" y="0" drill="1.9"/>
 <pad name="MML" x="-2.54" y="4.445" drill="0.9906" diameter="2.159" shape="long" rot="R90"/>
 <pad name="MMR" x="2.54" y="4.445" drill="1.016" diameter="2.159" shape="long" rot="R90"/>
 <wire x1="1.778" y1="5.08" x2="3.302" y2="5.08" width="0" layer="46" curve="-180"/>
@@ -461,6 +457,10 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 <wire x1="-3.302" y1="3.81" x2="-1.778" y2="3.81" width="0" layer="46" curve="180"/>
 <wire x1="-1.778" y1="5.08" x2="-1.778" y2="3.81" width="0" layer="46"/>
 <wire x1="-3.302" y1="5.08" x2="-3.302" y2="3.81" width="0" layer="46"/>
+<wire x1="5.08" y1="0.851" x2="5.08" y2="-0.851" width="0" layer="46" curve="-233"/>
+<wire x1="5.08" y1="0.851" x2="5.08" y2="-0.851" width="0" layer="46" curve="180"/>
+<wire x1="-5.08" y1="0.851" x2="-5.08" y2="-0.851" width="0" layer="46" curve="233"/>
+<wire x1="-5.08" y1="0.851" x2="-5.08" y2="-0.851" width="0" layer="46" curve="-180"/>
 </package>
 <package name="DIODE_SMD">
 <smd name="CATST" x="-1.1176" y="0" dx="0.8382" dy="0.635" layer="1" rot="R90"/>
@@ -776,8 +776,8 @@ A library of parts for creating mechanical keyboards, focused on versitility and
 </device>
 <device name="SMALL_SMD" package="EVP-BBA">
 <connects>
-<connect gate="G$1" pin="P$1" pad="A1 A2"/>
-<connect gate="G$1" pin="P$2" pad="B1 B2"/>
+<connect gate="G$1" pin="P$1" pad="A1 A2 A3 A4"/>
+<connect gate="G$1" pin="P$2" pad="B1 B2 B3 B4"/>
 </connects>
 <technologies>
 <technology name=""/>
